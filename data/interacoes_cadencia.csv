@@ -1,0 +1,815 @@
+interacao_id,lead_id,canal,etapa_cadencia,data_interacao,resultado,objecao_registrada,resumo_interacao
+1,1,WhatsApp,1,2026-07-19,Objecao,Nao e prioridade este ano,"Pediu para so enviar material por email, sem call"
+2,1,WhatsApp,2,2026-07-21,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+3,1,LinkedIn,3,2026-07-30,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+4,1,LinkedIn,4,2026-07-31,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+5,2,Email,1,2026-08-27,Sem resposta,,Nenhuma resposta ate o momento
+6,2,Email,2,2026-08-31,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+7,2,WhatsApp,3,2026-09-04,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+8,2,WhatsApp,4,2026-09-12,Nao perturbe,,Solicitou remocao da lista de prospeccao
+9,3,Email,1,2026-05-04,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+10,3,Email,2,2026-05-07,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+11,3,Email,3,2026-05-11,Sem resposta,,Nenhuma resposta ate o momento
+12,4,LinkedIn,1,2026-08-12,Sem resposta,,Nenhuma resposta ate o momento
+13,4,LinkedIn,2,2026-08-16,Sem resposta,,Nenhuma resposta ate o momento
+14,4,LinkedIn,3,2026-08-24,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+15,5,LinkedIn,1,2026-06-13,Nao perturbe,,Solicitou remocao da lista de prospeccao
+16,5,LinkedIn,2,2026-06-18,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+17,6,WhatsApp,1,2026-05-05,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+18,6,WhatsApp,2,2026-05-09,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+19,6,WhatsApp,3,2026-05-10,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+20,6,Email,4,2026-05-17,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+21,7,Email,1,2026-09-02,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+22,7,LinkedIn,2,2026-09-10,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+23,7,LinkedIn,3,2026-09-07,Sem resposta,,Nenhuma resposta ate o momento
+24,8,LinkedIn,1,2026-05-27,Objecao,,"Pediu para so enviar material por email, sem call"
+25,8,LinkedIn,2,2026-05-28,Sem resposta,,Nenhuma resposta ate o momento
+26,8,Email,3,2026-06-09,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+27,9,WhatsApp,1,2026-08-08,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+28,9,WhatsApp,2,2026-08-13,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+29,9,Email,3,2026-08-21,Objecao,Ja temos parceiro,Respondeu que nao e prioridade neste momento
+30,9,LinkedIn,4,2026-08-23,Sem resposta,,Nenhuma resposta ate o momento
+31,10,Email,1,2026-09-06,Objecao,Orcamento comprometido,Disse que ja tem um parceiro atendendo esse escopo
+32,10,LinkedIn,2,2026-09-11,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+33,11,WhatsApp,1,2026-07-02,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+34,11,Email,2,2026-07-03,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+35,11,Email,3,2026-07-12,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+36,12,WhatsApp,1,2026-04-29,Sem resposta,,Nenhuma resposta ate o momento
+37,12,Email,2,2026-05-05,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+38,13,Email,1,2026-05-16,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+39,13,Email,2,2026-05-24,Sem resposta,,Nenhuma resposta ate o momento
+40,13,WhatsApp,3,2026-05-27,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+41,14,Email,1,2026-09-05,Sem resposta,,Nenhuma resposta ate o momento
+42,14,Email,2,2026-09-09,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+43,14,Email,3,2026-09-11,Objecao,Nao e prioridade este ano,"Disse que a decisao nao e dele, indicou outro contato"
+44,15,Email,1,2026-08-22,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+45,15,Email,2,2026-08-27,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+46,15,Email,3,2026-08-26,Sem resposta,,Nenhuma resposta ate o momento
+47,15,LinkedIn,4,2026-09-10,Objecao,Orcamento comprometido,Respondeu que nao e prioridade neste momento
+48,15,WhatsApp,5,2026-09-06,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+49,15,LinkedIn,6,2026-09-16,Sem resposta,,Nenhuma resposta ate o momento
+50,16,Email,1,2026-07-15,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+51,16,WhatsApp,2,2026-07-16,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+52,17,LinkedIn,1,2026-08-09,Sem resposta,,Nenhuma resposta ate o momento
+53,17,LinkedIn,2,2026-08-17,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+54,18,Email,1,2026-09-05,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+55,18,Email,2,2026-09-11,Objecao,Manda material por email,Disse que ja tem um parceiro atendendo esse escopo
+56,18,Email,3,2026-09-13,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+57,19,Email,1,2026-08-18,Nao perturbe,,Solicitou remocao da lista de prospeccao
+58,19,LinkedIn,2,2026-08-20,Sem resposta,,Nenhuma resposta ate o momento
+59,19,WhatsApp,3,2026-08-29,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+60,19,WhatsApp,4,2026-09-07,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+61,19,LinkedIn,5,2026-09-13,Sem resposta,,Nenhuma resposta ate o momento
+62,20,Email,1,2026-05-05,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+63,20,Email,2,2026-05-06,Objecao,Manda material por email,"Disse que a decisao nao e dele, indicou outro contato"
+64,20,WhatsApp,3,2026-05-09,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+65,21,LinkedIn,1,2026-07-19,Sem resposta,,Nenhuma resposta ate o momento
+66,21,LinkedIn,2,2026-07-22,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+67,21,Email,3,2026-07-29,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+68,21,Email,4,2026-08-03,Sem resposta,,Nenhuma resposta ate o momento
+69,21,Email,5,2026-08-08,Objecao,,Disse que ja tem um parceiro atendendo esse escopo
+70,22,WhatsApp,1,2026-09-01,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+71,22,Email,2,2026-09-07,Objecao,Orcamento comprometido,"Disse que a decisao nao e dele, indicou outro contato"
+72,22,Email,3,2026-09-09,Sem resposta,,Nenhuma resposta ate o momento
+73,22,Email,4,2026-09-13,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+74,23,Email,1,2026-07-12,Objecao,Manda material por email,Informou que o orcamento do ano ja esta comprometido
+75,23,LinkedIn,2,2026-07-12,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+76,23,Email,3,2026-07-15,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+77,24,LinkedIn,1,2026-06-07,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+78,24,LinkedIn,2,2026-06-13,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+79,24,WhatsApp,3,2026-06-15,Objecao,Nao e prioridade este ano,Disse que ja tem um parceiro atendendo esse escopo
+80,24,LinkedIn,4,2026-06-27,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+81,24,WhatsApp,5,2026-07-03,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+82,24,Email,6,2026-07-09,Objecao,Ja temos parceiro,Disse que ja tem um parceiro atendendo esse escopo
+83,25,LinkedIn,1,2026-09-05,Objecao,Nao sou eu quem decide,Disse que ja tem um parceiro atendendo esse escopo
+84,25,WhatsApp,2,2026-09-14,Sem resposta,,Nenhuma resposta ate o momento
+85,25,Email,3,2026-09-11,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+86,25,LinkedIn,4,2026-09-14,Sem resposta,,Nenhuma resposta ate o momento
+87,26,LinkedIn,1,2026-08-04,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+88,26,LinkedIn,2,2026-08-10,Sem resposta,,Nenhuma resposta ate o momento
+89,26,Email,3,2026-08-07,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+90,26,LinkedIn,4,2026-08-14,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+91,27,LinkedIn,1,2026-05-04,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+92,27,LinkedIn,2,2026-05-10,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+93,27,WhatsApp,3,2026-05-07,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+94,27,LinkedIn,4,2026-05-10,Sem resposta,,Nenhuma resposta ate o momento
+95,27,WhatsApp,5,2026-05-13,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+96,28,Email,1,2026-07-21,Objecao,Nao e prioridade este ano,Respondeu que nao e prioridade neste momento
+97,28,Email,2,2026-07-25,Objecao,Manda material por email,Disse que ja tem um parceiro atendendo esse escopo
+98,30,WhatsApp,1,2026-05-01,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+99,30,Email,2,2026-05-02,Sem resposta,,Nenhuma resposta ate o momento
+100,30,Email,3,2026-05-08,Sem resposta,,Nenhuma resposta ate o momento
+101,31,Email,1,2026-09-07,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+102,31,Email,2,2026-09-11,Objecao,Nao e prioridade este ano,Informou que o orcamento do ano ja esta comprometido
+103,32,WhatsApp,1,2026-08-04,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+104,32,Email,2,2026-08-09,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+105,32,Email,3,2026-08-14,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+106,33,WhatsApp,1,2026-04-20,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+107,33,LinkedIn,2,2026-04-22,Nao perturbe,,Solicitou remocao da lista de prospeccao
+108,33,WhatsApp,3,2026-04-28,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+109,33,WhatsApp,4,2026-04-28,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+110,33,Email,5,2026-05-06,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+111,34,WhatsApp,1,2026-04-01,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+112,34,Email,2,2026-04-09,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+113,35,WhatsApp,1,2026-09-02,Objecao,Nao e prioridade este ano,Respondeu que nao e prioridade neste momento
+114,35,WhatsApp,2,2026-09-07,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+115,35,LinkedIn,3,2026-09-15,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+116,36,LinkedIn,1,2026-05-13,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+117,36,Email,2,2026-05-17,Objecao,,"Disse que a decisao nao e dele, indicou outro contato"
+118,36,LinkedIn,3,2026-05-24,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+119,36,Email,4,2026-06-02,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+120,37,LinkedIn,1,2026-05-31,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+121,37,Email,2,2026-06-07,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+122,37,Email,3,2026-06-07,Objecao,Nao e prioridade este ano,Informou que o orcamento do ano ja esta comprometido
+123,37,Email,4,2026-06-07,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+124,38,Email,1,2026-04-03,Sem resposta,,Nenhuma resposta ate o momento
+125,38,WhatsApp,2,2026-04-09,Sem resposta,,Nenhuma resposta ate o momento
+126,39,WhatsApp,1,2026-04-17,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+127,39,WhatsApp,2,2026-04-26,Objecao,,Disse que ja tem um parceiro atendendo esse escopo
+128,39,WhatsApp,3,2026-05-02,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+129,39,Email,4,2026-05-04,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+130,40,LinkedIn,1,2026-04-09,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+131,40,Email,2,2026-04-16,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+132,41,WhatsApp,1,2026-05-30,Nao perturbe,,Solicitou remocao da lista de prospeccao
+133,41,LinkedIn,2,2026-06-02,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+134,42,LinkedIn,1,2026-09-09,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+135,43,Email,1,2026-09-10,Sem resposta,,Nenhuma resposta ate o momento
+136,43,WhatsApp,2,2026-09-13,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+137,44,LinkedIn,1,2026-08-10,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+138,44,Email,2,2026-08-15,Nao perturbe,,Solicitou remocao da lista de prospeccao
+139,44,WhatsApp,3,2026-08-16,Nao perturbe,,Solicitou remocao da lista de prospeccao
+140,44,LinkedIn,4,2026-08-19,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+141,44,Email,5,2026-08-27,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+142,44,WhatsApp,6,2026-08-25,Sem resposta,,Nenhuma resposta ate o momento
+143,45,Email,1,2026-06-27,Sem resposta,,Nenhuma resposta ate o momento
+144,45,Email,2,2026-07-02,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+145,45,LinkedIn,3,2026-07-01,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+146,45,LinkedIn,4,2026-07-04,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+147,45,LinkedIn,5,2026-07-12,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+148,46,LinkedIn,1,2026-08-01,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+149,46,Email,2,2026-08-01,Sem resposta,,Nenhuma resposta ate o momento
+150,46,LinkedIn,3,2026-08-07,Objecao,Ja temos parceiro,"Disse que a decisao nao e dele, indicou outro contato"
+151,47,WhatsApp,1,2026-06-26,Nao perturbe,,Solicitou remocao da lista de prospeccao
+152,47,Email,2,2026-07-01,Sem resposta,,Nenhuma resposta ate o momento
+153,48,Email,1,2026-05-07,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+154,48,WhatsApp,2,2026-05-07,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+155,48,Email,3,2026-05-10,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+156,48,LinkedIn,4,2026-05-13,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+157,48,WhatsApp,5,2026-05-21,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+158,49,WhatsApp,1,2026-04-19,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+159,49,WhatsApp,2,2026-04-24,Sem resposta,,Nenhuma resposta ate o momento
+160,49,Email,3,2026-04-28,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+161,49,WhatsApp,4,2026-05-02,Sem resposta,,Nenhuma resposta ate o momento
+162,49,Email,5,2026-05-11,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+163,50,Email,1,2026-04-26,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+164,50,Email,2,2026-05-03,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+165,50,WhatsApp,3,2026-05-06,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+166,51,WhatsApp,1,2026-04-01,Sem resposta,,Nenhuma resposta ate o momento
+167,51,WhatsApp,2,2026-04-05,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+168,51,Email,3,2026-04-09,Objecao,Orcamento comprometido,Respondeu que nao e prioridade neste momento
+169,52,Email,1,2026-07-07,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+170,52,WhatsApp,2,2026-07-07,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+171,52,WhatsApp,3,2026-07-13,Objecao,Nao sou eu quem decide,Disse que ja tem um parceiro atendendo esse escopo
+172,52,Email,4,2026-07-25,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+173,53,WhatsApp,1,2026-06-13,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+174,53,LinkedIn,2,2026-06-22,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+175,53,Email,3,2026-06-25,Objecao,Orcamento comprometido,Respondeu que nao e prioridade neste momento
+176,53,Email,4,2026-06-22,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+177,54,Email,1,2026-07-30,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+178,54,WhatsApp,2,2026-07-30,Objecao,Ja temos parceiro,"Pediu para so enviar material por email, sem call"
+179,54,WhatsApp,3,2026-08-02,Sem resposta,,Nenhuma resposta ate o momento
+180,54,WhatsApp,4,2026-08-13,Sem resposta,,Nenhuma resposta ate o momento
+181,54,Email,5,2026-08-23,Nao perturbe,,Solicitou remocao da lista de prospeccao
+182,54,LinkedIn,6,2026-08-11,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+183,55,Email,1,2026-05-12,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+184,55,Email,2,2026-05-16,Sem resposta,,Nenhuma resposta ate o momento
+185,55,LinkedIn,3,2026-05-17,Sem resposta,,Nenhuma resposta ate o momento
+186,55,Email,4,2026-05-24,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+187,55,Email,5,2026-05-28,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+188,55,Email,6,2026-05-26,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+189,56,LinkedIn,1,2026-08-26,Sem resposta,,Nenhuma resposta ate o momento
+190,56,LinkedIn,2,2026-09-02,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+191,56,LinkedIn,3,2026-09-04,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+192,56,LinkedIn,4,2026-09-12,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+193,57,WhatsApp,1,2026-04-17,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+194,57,WhatsApp,2,2026-04-18,Objecao,,Respondeu que nao e prioridade neste momento
+195,57,Email,3,2026-04-24,Sem resposta,,Nenhuma resposta ate o momento
+196,57,Email,4,2026-04-28,Objecao,Manda material por email,Disse que ja tem um parceiro atendendo esse escopo
+197,57,Email,5,2026-05-07,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+198,58,WhatsApp,1,2026-06-08,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+199,58,Email,2,2026-06-15,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+200,58,Email,3,2026-06-17,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+201,58,Email,4,2026-06-25,Objecao,Ja temos parceiro,"Pediu para so enviar material por email, sem call"
+202,58,Email,5,2026-06-30,Sem resposta,,Nenhuma resposta ate o momento
+203,59,LinkedIn,1,2026-07-24,Sem resposta,,Nenhuma resposta ate o momento
+204,59,LinkedIn,2,2026-08-02,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+205,59,Email,3,2026-08-08,Sem resposta,,Nenhuma resposta ate o momento
+206,59,LinkedIn,4,2026-08-14,Sem resposta,,Nenhuma resposta ate o momento
+207,60,Email,1,2026-05-25,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+208,60,WhatsApp,2,2026-05-28,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+209,60,WhatsApp,3,2026-06-01,Objecao,Nao e prioridade este ano,Respondeu que nao e prioridade neste momento
+210,60,Email,4,2026-06-01,Sem resposta,,Nenhuma resposta ate o momento
+211,60,WhatsApp,5,2026-06-09,Sem resposta,,Nenhuma resposta ate o momento
+212,61,WhatsApp,1,2026-08-12,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+213,61,WhatsApp,2,2026-08-12,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+214,61,WhatsApp,3,2026-08-21,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+215,62,Email,1,2026-05-09,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+216,62,LinkedIn,2,2026-05-15,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+217,62,LinkedIn,3,2026-05-20,Sem resposta,,Nenhuma resposta ate o momento
+218,63,WhatsApp,1,2026-06-30,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+219,63,Email,2,2026-07-08,Sem resposta,,Nenhuma resposta ate o momento
+220,64,LinkedIn,1,2026-06-06,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+221,64,LinkedIn,2,2026-06-11,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+222,64,Email,3,2026-06-18,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+223,65,Email,1,2026-04-22,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+224,65,Email,2,2026-04-25,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+225,65,WhatsApp,3,2026-05-04,Sem resposta,,Nenhuma resposta ate o momento
+226,65,Email,4,2026-05-09,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+227,65,WhatsApp,5,2026-05-14,Objecao,Manda material por email,Disse que ja tem um parceiro atendendo esse escopo
+228,66,LinkedIn,1,2026-06-05,Objecao,Ja temos parceiro,Respondeu que nao e prioridade neste momento
+229,66,Email,2,2026-06-10,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+230,66,LinkedIn,3,2026-06-18,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+231,66,LinkedIn,4,2026-06-12,Objecao,Nao e prioridade este ano,Informou que o orcamento do ano ja esta comprometido
+232,66,LinkedIn,5,2026-06-20,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+233,66,LinkedIn,6,2026-06-30,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+234,67,LinkedIn,1,2026-03-29,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+235,67,Email,2,2026-04-01,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+236,67,LinkedIn,3,2026-04-13,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+237,67,LinkedIn,4,2026-04-11,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+238,68,Email,1,2026-04-27,Objecao,Ja temos parceiro,Disse que ja tem um parceiro atendendo esse escopo
+239,68,LinkedIn,2,2026-05-02,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+240,68,LinkedIn,3,2026-05-12,Objecao,Orcamento comprometido,Disse que ja tem um parceiro atendendo esse escopo
+241,68,LinkedIn,4,2026-05-10,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+242,69,Email,1,2026-06-16,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+243,69,Email,2,2026-06-22,Objecao,Nao e prioridade este ano,Disse que ja tem um parceiro atendendo esse escopo
+244,69,Email,3,2026-06-28,Sem resposta,,Nenhuma resposta ate o momento
+245,69,Email,4,2026-06-30,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+246,70,Email,1,2026-06-04,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+247,70,WhatsApp,2,2026-06-06,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+248,70,Email,3,2026-06-12,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+249,70,Email,4,2026-06-16,Nao perturbe,,Solicitou remocao da lista de prospeccao
+250,70,Email,5,2026-06-15,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+251,71,WhatsApp,1,2026-09-03,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+252,71,Email,2,2026-09-04,Sem resposta,,Nenhuma resposta ate o momento
+253,71,WhatsApp,3,2026-09-13,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+254,72,LinkedIn,1,2026-05-22,Sem resposta,,Nenhuma resposta ate o momento
+255,72,LinkedIn,2,2026-05-27,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+256,73,WhatsApp,1,2026-04-16,Sem resposta,,Nenhuma resposta ate o momento
+257,73,Email,2,2026-04-19,Nao perturbe,,Solicitou remocao da lista de prospeccao
+258,73,LinkedIn,3,2026-05-01,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+259,73,LinkedIn,4,2026-05-03,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+260,73,Email,5,2026-04-28,Sem resposta,,Nenhuma resposta ate o momento
+261,74,Email,1,2026-06-15,Sem resposta,,Nenhuma resposta ate o momento
+262,74,Email,2,2026-06-21,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+263,74,WhatsApp,3,2026-06-29,Objecao,,"Pediu para so enviar material por email, sem call"
+264,74,LinkedIn,4,2026-06-27,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+265,75,WhatsApp,1,2026-08-19,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+266,75,Email,2,2026-08-24,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+267,75,Email,3,2026-08-28,Objecao,Orcamento comprometido,Informou que o orcamento do ano ja esta comprometido
+268,75,Email,4,2026-08-28,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+269,75,WhatsApp,5,2026-09-05,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+270,75,Email,6,2026-09-15,Objecao,Orcamento comprometido,Informou que o orcamento do ano ja esta comprometido
+271,76,Email,1,2026-06-05,Sem resposta,,Nenhuma resposta ate o momento
+272,76,Email,2,2026-06-08,Nao perturbe,,Solicitou remocao da lista de prospeccao
+273,77,WhatsApp,1,2026-05-31,Objecao,Manda material por email,"Disse que a decisao nao e dele, indicou outro contato"
+274,77,LinkedIn,2,2026-06-02,Objecao,,"Disse que a decisao nao e dele, indicou outro contato"
+275,77,WhatsApp,3,2026-06-11,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+276,77,LinkedIn,4,2026-06-08,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+277,78,Email,1,2026-05-25,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+278,78,WhatsApp,2,2026-05-27,Sem resposta,,Nenhuma resposta ate o momento
+279,79,Email,1,2026-05-26,Sem resposta,,Nenhuma resposta ate o momento
+280,79,LinkedIn,2,2026-05-29,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+281,79,Email,3,2026-06-10,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+282,79,LinkedIn,4,2026-06-16,Sem resposta,,Nenhuma resposta ate o momento
+283,80,WhatsApp,1,2026-05-18,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+284,80,Email,2,2026-05-20,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+285,80,WhatsApp,3,2026-05-23,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+286,80,WhatsApp,4,2026-05-26,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+287,81,WhatsApp,1,2026-07-10,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+288,81,Email,2,2026-07-13,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+289,81,Email,3,2026-07-19,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+290,81,Email,4,2026-07-27,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+291,82,Email,1,2026-07-20,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+292,82,WhatsApp,2,2026-07-24,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+293,83,WhatsApp,1,2026-07-18,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+294,83,WhatsApp,2,2026-07-23,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+295,84,WhatsApp,1,2026-06-26,Nao perturbe,,Solicitou remocao da lista de prospeccao
+296,84,LinkedIn,2,2026-07-03,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+297,85,WhatsApp,1,2026-08-19,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+298,85,WhatsApp,2,2026-08-22,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+299,85,WhatsApp,3,2026-08-31,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+300,85,WhatsApp,4,2026-09-01,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+301,85,Email,5,2026-09-05,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+302,85,Email,6,2026-09-03,Sem resposta,,Nenhuma resposta ate o momento
+303,86,WhatsApp,1,2026-04-19,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+304,86,WhatsApp,2,2026-04-22,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+305,87,Email,1,2026-05-06,Sem resposta,,Nenhuma resposta ate o momento
+306,87,Email,2,2026-05-08,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+307,87,Email,3,2026-05-11,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+308,87,Email,4,2026-05-14,Objecao,Ja temos parceiro,Respondeu que nao e prioridade neste momento
+309,88,LinkedIn,1,2026-05-18,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+310,88,WhatsApp,2,2026-05-25,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+311,88,LinkedIn,3,2026-05-25,Sem resposta,,Nenhuma resposta ate o momento
+312,88,LinkedIn,4,2026-05-25,Sem resposta,,Nenhuma resposta ate o momento
+313,89,WhatsApp,1,2026-07-19,Sem resposta,,Nenhuma resposta ate o momento
+314,89,LinkedIn,2,2026-07-23,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+315,89,LinkedIn,3,2026-07-22,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+316,90,LinkedIn,1,2026-09-07,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+317,90,WhatsApp,2,2026-09-10,Nao perturbe,,Solicitou remocao da lista de prospeccao
+318,91,Email,1,2026-06-05,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+319,91,WhatsApp,2,2026-06-09,Sem resposta,,Nenhuma resposta ate o momento
+320,91,Email,3,2026-06-13,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+321,91,WhatsApp,4,2026-06-21,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+322,91,WhatsApp,5,2026-06-21,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+323,92,WhatsApp,1,2026-04-26,Sem resposta,,Nenhuma resposta ate o momento
+324,92,Email,2,2026-04-29,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+325,93,LinkedIn,1,2026-07-13,Nao perturbe,,Solicitou remocao da lista de prospeccao
+326,93,LinkedIn,2,2026-07-22,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+327,93,Email,3,2026-07-25,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+328,93,Email,4,2026-07-22,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+329,93,Email,5,2026-08-09,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+330,93,LinkedIn,6,2026-08-03,Sem resposta,,Nenhuma resposta ate o momento
+331,94,WhatsApp,1,2026-03-28,Sem resposta,,Nenhuma resposta ate o momento
+332,94,Email,2,2026-03-31,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+333,94,WhatsApp,3,2026-04-01,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+334,94,Email,4,2026-04-12,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+335,94,WhatsApp,5,2026-04-17,Nao perturbe,,Solicitou remocao da lista de prospeccao
+336,94,Email,6,2026-04-10,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+337,95,Email,1,2026-07-22,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+338,95,Email,2,2026-07-28,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+339,95,Email,3,2026-08-02,Objecao,Manda material por email,"Disse que a decisao nao e dele, indicou outro contato"
+340,96,LinkedIn,1,2026-08-12,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+341,96,WhatsApp,2,2026-08-18,Nao perturbe,,Solicitou remocao da lista de prospeccao
+342,97,LinkedIn,1,2026-05-25,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+343,97,LinkedIn,2,2026-05-29,Sem resposta,,Nenhuma resposta ate o momento
+344,97,LinkedIn,3,2026-06-06,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+345,97,LinkedIn,4,2026-06-04,Objecao,Manda material por email,Informou que o orcamento do ano ja esta comprometido
+346,98,WhatsApp,1,2026-09-10,Sem resposta,,Nenhuma resposta ate o momento
+347,99,Email,1,2026-09-13,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+348,100,Email,1,2026-07-09,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+349,100,LinkedIn,2,2026-07-12,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+350,100,WhatsApp,3,2026-07-15,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+351,100,LinkedIn,4,2026-07-26,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+352,100,LinkedIn,5,2026-07-26,Objecao,Ja temos parceiro,"Disse que a decisao nao e dele, indicou outro contato"
+353,100,WhatsApp,6,2026-07-24,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+354,101,Email,1,2026-06-26,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+355,101,Email,2,2026-07-02,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+356,101,LinkedIn,3,2026-07-04,Sem resposta,,Nenhuma resposta ate o momento
+357,101,LinkedIn,4,2026-07-12,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+358,101,LinkedIn,5,2026-07-07,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+359,102,WhatsApp,1,2026-06-08,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+360,102,LinkedIn,2,2026-06-11,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+361,104,LinkedIn,1,2026-09-05,Sem resposta,,Nenhuma resposta ate o momento
+362,104,Email,2,2026-09-14,Objecao,Orcamento comprometido,"Pediu para so enviar material por email, sem call"
+363,105,WhatsApp,1,2026-09-12,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+364,106,LinkedIn,1,2026-08-20,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+365,106,WhatsApp,2,2026-08-27,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+366,106,LinkedIn,3,2026-09-04,Sem resposta,,Nenhuma resposta ate o momento
+367,107,LinkedIn,1,2026-07-13,Nao perturbe,,Solicitou remocao da lista de prospeccao
+368,107,WhatsApp,2,2026-07-18,Objecao,Nao e prioridade este ano,Respondeu que nao e prioridade neste momento
+369,107,LinkedIn,3,2026-07-23,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+370,108,LinkedIn,1,2026-04-21,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+371,108,LinkedIn,2,2026-04-25,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+372,108,WhatsApp,3,2026-04-30,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+373,108,WhatsApp,4,2026-04-27,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+374,110,Email,1,2026-05-04,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+375,110,Email,2,2026-05-13,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+376,110,LinkedIn,3,2026-05-16,Sem resposta,,Nenhuma resposta ate o momento
+377,111,LinkedIn,1,2026-07-22,Sem resposta,,Nenhuma resposta ate o momento
+378,111,LinkedIn,2,2026-07-24,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+379,112,WhatsApp,1,2026-06-13,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+380,112,Email,2,2026-06-18,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+381,112,WhatsApp,3,2026-06-22,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+382,112,WhatsApp,4,2026-06-26,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+383,112,Email,5,2026-06-25,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+384,113,WhatsApp,1,2026-08-26,Objecao,Manda material por email,"Disse que a decisao nao e dele, indicou outro contato"
+385,113,WhatsApp,2,2026-08-29,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+386,114,WhatsApp,1,2026-04-04,Sem resposta,,Nenhuma resposta ate o momento
+387,114,Email,2,2026-04-07,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+388,115,WhatsApp,1,2026-08-31,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+389,115,WhatsApp,2,2026-09-01,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+390,116,LinkedIn,1,2026-04-16,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+391,116,Email,2,2026-04-18,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+392,116,LinkedIn,3,2026-04-25,Objecao,Nao sou eu quem decide,Disse que ja tem um parceiro atendendo esse escopo
+393,116,WhatsApp,4,2026-05-04,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+394,117,LinkedIn,1,2026-04-11,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+395,117,LinkedIn,2,2026-04-12,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+396,117,LinkedIn,3,2026-04-15,Sem resposta,,Nenhuma resposta ate o momento
+397,117,Email,4,2026-04-22,Sem resposta,,Nenhuma resposta ate o momento
+398,117,Email,5,2026-04-26,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+399,118,LinkedIn,1,2026-09-04,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+400,118,LinkedIn,2,2026-09-09,Nao perturbe,,Solicitou remocao da lista de prospeccao
+401,119,Email,1,2026-08-03,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+402,119,Email,2,2026-08-08,Sem resposta,,Nenhuma resposta ate o momento
+403,119,Email,3,2026-08-15,Objecao,,Informou que o orcamento do ano ja esta comprometido
+404,119,Email,4,2026-08-20,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+405,120,WhatsApp,1,2026-04-25,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+406,120,WhatsApp,2,2026-04-25,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+407,121,Email,1,2026-05-25,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+408,121,WhatsApp,2,2026-05-29,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+409,121,WhatsApp,3,2026-06-06,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+410,121,WhatsApp,4,2026-06-08,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+411,122,LinkedIn,1,2026-06-04,Objecao,Nao e prioridade este ano,Disse que ja tem um parceiro atendendo esse escopo
+412,122,LinkedIn,2,2026-06-09,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+413,122,Email,3,2026-06-14,Sem resposta,,Nenhuma resposta ate o momento
+414,122,Email,4,2026-06-23,Objecao,Orcamento comprometido,Informou que o orcamento do ano ja esta comprometido
+415,123,Email,1,2026-06-15,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+416,123,LinkedIn,2,2026-06-22,Objecao,Nao sou eu quem decide,"Pediu para so enviar material por email, sem call"
+417,123,Email,3,2026-06-25,Objecao,,"Pediu para so enviar material por email, sem call"
+418,123,LinkedIn,4,2026-06-30,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+419,123,Email,5,2026-07-05,Sem resposta,,Nenhuma resposta ate o momento
+420,124,Email,1,2026-09-16,Nao perturbe,,Solicitou remocao da lista de prospeccao
+421,125,LinkedIn,1,2026-06-21,Objecao,Ja temos parceiro,Respondeu que nao e prioridade neste momento
+422,125,LinkedIn,2,2026-06-27,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+423,125,WhatsApp,3,2026-06-26,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+424,125,WhatsApp,4,2026-06-29,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+425,126,LinkedIn,1,2026-07-04,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+426,126,Email,2,2026-07-06,Sem resposta,,Nenhuma resposta ate o momento
+427,127,Email,1,2026-06-06,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+428,127,Email,2,2026-06-09,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+429,127,WhatsApp,3,2026-06-13,Sem resposta,,Nenhuma resposta ate o momento
+430,127,WhatsApp,4,2026-06-21,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+431,127,Email,5,2026-06-16,Objecao,,"Pediu para so enviar material por email, sem call"
+432,128,LinkedIn,1,2026-07-11,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+433,128,LinkedIn,2,2026-07-20,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+434,128,LinkedIn,3,2026-07-17,Sem resposta,,Nenhuma resposta ate o momento
+435,129,LinkedIn,1,2026-06-26,Objecao,Nao sou eu quem decide,Informou que o orcamento do ano ja esta comprometido
+436,129,LinkedIn,2,2026-06-27,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+437,130,WhatsApp,1,2026-04-01,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+438,130,LinkedIn,2,2026-04-06,Sem resposta,,Nenhuma resposta ate o momento
+439,130,WhatsApp,3,2026-04-11,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+440,130,Email,4,2026-04-16,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+441,131,Email,1,2026-06-17,Sem resposta,,Nenhuma resposta ate o momento
+442,131,Email,2,2026-06-21,Sem resposta,,Nenhuma resposta ate o momento
+443,131,Email,3,2026-06-22,Objecao,Nao sou eu quem decide,"Pediu para so enviar material por email, sem call"
+444,131,WhatsApp,4,2026-06-25,Sem resposta,,Nenhuma resposta ate o momento
+445,132,Email,1,2026-04-15,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+446,132,Email,2,2026-04-20,Sem resposta,,Nenhuma resposta ate o momento
+447,132,WhatsApp,3,2026-04-25,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+448,132,Email,4,2026-04-22,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+449,133,WhatsApp,1,2026-04-05,Sem resposta,,Nenhuma resposta ate o momento
+450,133,Email,2,2026-04-12,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+451,133,WhatsApp,3,2026-04-20,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+452,134,WhatsApp,1,2026-07-20,Sem resposta,,Nenhuma resposta ate o momento
+453,134,Email,2,2026-07-23,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+454,134,Email,3,2026-07-29,Objecao,Ja temos parceiro,Informou que o orcamento do ano ja esta comprometido
+455,134,WhatsApp,4,2026-08-06,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+456,134,Email,5,2026-08-06,Sem resposta,,Nenhuma resposta ate o momento
+457,134,WhatsApp,6,2026-08-04,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+458,135,Email,1,2026-06-04,Objecao,,Disse que ja tem um parceiro atendendo esse escopo
+459,135,Email,2,2026-06-09,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+460,135,LinkedIn,3,2026-06-19,Sem resposta,,Nenhuma resposta ate o momento
+461,136,WhatsApp,1,2026-05-29,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+462,136,Email,2,2026-06-04,Sem resposta,,Nenhuma resposta ate o momento
+463,136,WhatsApp,3,2026-06-03,Objecao,,"Disse que a decisao nao e dele, indicou outro contato"
+464,136,Email,4,2026-06-10,Nao perturbe,,Solicitou remocao da lista de prospeccao
+465,137,Email,1,2026-06-11,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+466,137,WhatsApp,2,2026-06-18,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+467,137,LinkedIn,3,2026-06-24,Objecao,Orcamento comprometido,Informou que o orcamento do ano ja esta comprometido
+468,137,LinkedIn,4,2026-06-22,Objecao,,Informou que o orcamento do ano ja esta comprometido
+469,138,WhatsApp,1,2026-04-21,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+470,138,Email,2,2026-04-22,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+471,138,Email,3,2026-05-01,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+472,138,WhatsApp,4,2026-05-02,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+473,138,WhatsApp,5,2026-05-06,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+474,139,LinkedIn,1,2026-05-01,Nao perturbe,,Solicitou remocao da lista de prospeccao
+475,139,Email,2,2026-05-09,Objecao,,Respondeu que nao e prioridade neste momento
+476,140,Email,1,2026-07-10,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+477,140,WhatsApp,2,2026-07-13,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+478,140,WhatsApp,3,2026-07-19,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+479,140,Email,4,2026-07-23,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+480,140,WhatsApp,5,2026-08-01,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+481,141,WhatsApp,1,2026-06-19,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+482,141,WhatsApp,2,2026-06-22,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+483,141,Email,3,2026-06-25,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+484,142,Email,1,2026-05-08,Sem resposta,,Nenhuma resposta ate o momento
+485,142,Email,2,2026-05-14,Nao perturbe,,Solicitou remocao da lista de prospeccao
+486,142,Email,3,2026-05-19,Objecao,Ja temos parceiro,"Disse que a decisao nao e dele, indicou outro contato"
+487,142,WhatsApp,4,2026-05-16,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+488,142,Email,5,2026-05-29,Objecao,Orcamento comprometido,Respondeu que nao e prioridade neste momento
+489,143,WhatsApp,1,2026-07-25,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+490,143,WhatsApp,2,2026-07-31,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+491,144,Email,1,2026-03-27,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+492,144,WhatsApp,2,2026-04-03,Objecao,Nao e prioridade este ano,Disse que ja tem um parceiro atendendo esse escopo
+493,145,Email,1,2026-08-12,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+494,145,WhatsApp,2,2026-08-17,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+495,145,Email,3,2026-08-18,Objecao,,"Pediu para so enviar material por email, sem call"
+496,145,Email,4,2026-08-25,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+497,145,WhatsApp,5,2026-08-29,Sem resposta,,Nenhuma resposta ate o momento
+498,145,Email,6,2026-09-08,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+499,146,Email,1,2026-05-07,Objecao,,Disse que ja tem um parceiro atendendo esse escopo
+500,146,Email,2,2026-05-13,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+501,146,Email,3,2026-05-15,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+502,146,Email,4,2026-05-27,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+503,146,Email,5,2026-05-28,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+504,146,WhatsApp,6,2026-05-27,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+505,147,WhatsApp,1,2026-04-06,Sem resposta,,Nenhuma resposta ate o momento
+506,147,WhatsApp,2,2026-04-11,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+507,147,WhatsApp,3,2026-04-16,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+508,147,WhatsApp,4,2026-04-21,Objecao,Manda material por email,"Pediu para so enviar material por email, sem call"
+509,148,Email,1,2026-08-25,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+510,148,LinkedIn,2,2026-08-30,Sem resposta,,Nenhuma resposta ate o momento
+511,148,WhatsApp,3,2026-09-06,Objecao,,"Disse que a decisao nao e dele, indicou outro contato"
+512,148,WhatsApp,4,2026-09-11,Sem resposta,,Nenhuma resposta ate o momento
+513,148,Email,5,2026-09-16,Sem resposta,,Nenhuma resposta ate o momento
+514,149,WhatsApp,1,2026-05-20,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+515,149,LinkedIn,2,2026-05-25,Objecao,Nao sou eu quem decide,Respondeu que nao e prioridade neste momento
+516,149,Email,3,2026-06-01,Objecao,,Respondeu que nao e prioridade neste momento
+517,149,WhatsApp,4,2026-06-10,Nao perturbe,,Solicitou remocao da lista de prospeccao
+518,149,LinkedIn,5,2026-06-01,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+519,150,WhatsApp,1,2026-08-19,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+520,150,LinkedIn,2,2026-08-23,Objecao,Nao sou eu quem decide,"Pediu para so enviar material por email, sem call"
+521,150,WhatsApp,3,2026-08-25,Sem resposta,,Nenhuma resposta ate o momento
+522,150,WhatsApp,4,2026-08-25,Sem resposta,,Nenhuma resposta ate o momento
+523,150,Email,5,2026-08-28,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+524,150,LinkedIn,6,2026-09-12,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+525,151,Email,1,2026-04-02,Objecao,,Disse que ja tem um parceiro atendendo esse escopo
+526,151,WhatsApp,2,2026-04-06,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+527,151,Email,3,2026-04-10,Objecao,Nao sou eu quem decide,"Disse que a decisao nao e dele, indicou outro contato"
+528,151,Email,4,2026-04-18,Sem resposta,,Nenhuma resposta ate o momento
+529,152,WhatsApp,1,2026-07-26,Objecao,,Respondeu que nao e prioridade neste momento
+530,152,WhatsApp,2,2026-07-29,Sem resposta,,Nenhuma resposta ate o momento
+531,152,WhatsApp,3,2026-08-04,Sem resposta,,Nenhuma resposta ate o momento
+532,152,Email,4,2026-08-12,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+533,152,Email,5,2026-08-07,Objecao,Nao e prioridade este ano,Informou que o orcamento do ano ja esta comprometido
+534,152,Email,6,2026-08-10,Objecao,Ja temos parceiro,Respondeu que nao e prioridade neste momento
+535,153,LinkedIn,1,2026-07-11,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+536,153,Email,2,2026-07-16,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+537,153,Email,3,2026-07-24,Sem resposta,,Nenhuma resposta ate o momento
+538,153,WhatsApp,4,2026-07-18,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+539,153,WhatsApp,5,2026-07-21,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+540,154,WhatsApp,1,2026-04-19,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+541,154,WhatsApp,2,2026-04-25,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+542,154,LinkedIn,3,2026-04-25,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+543,155,Email,1,2026-08-13,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+544,155,LinkedIn,2,2026-08-18,Nao perturbe,,Solicitou remocao da lista de prospeccao
+545,156,Email,1,2026-06-05,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+546,156,Email,2,2026-06-08,Objecao,Nao sou eu quem decide,Disse que ja tem um parceiro atendendo esse escopo
+547,156,Email,3,2026-06-15,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+548,156,WhatsApp,4,2026-06-16,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+549,156,WhatsApp,5,2026-06-25,Sem resposta,,Nenhuma resposta ate o momento
+550,157,LinkedIn,1,2026-08-12,Sem resposta,,Nenhuma resposta ate o momento
+551,157,WhatsApp,2,2026-08-14,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+552,157,LinkedIn,3,2026-08-24,Objecao,Manda material por email,"Pediu para so enviar material por email, sem call"
+553,157,Email,4,2026-08-22,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+554,157,WhatsApp,5,2026-08-26,Sem resposta,,Nenhuma resposta ate o momento
+555,158,Email,1,2026-07-28,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+556,158,LinkedIn,2,2026-07-30,Objecao,Orcamento comprometido,"Disse que a decisao nao e dele, indicou outro contato"
+557,158,LinkedIn,3,2026-08-09,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+558,158,LinkedIn,4,2026-08-07,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+559,158,WhatsApp,5,2026-08-06,Sem resposta,,Nenhuma resposta ate o momento
+560,158,Email,6,2026-08-27,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+561,159,LinkedIn,1,2026-07-04,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+562,159,Email,2,2026-07-09,Sem resposta,,Nenhuma resposta ate o momento
+563,160,WhatsApp,1,2026-08-16,Sem resposta,,Nenhuma resposta ate o momento
+564,160,WhatsApp,2,2026-08-19,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+565,160,WhatsApp,3,2026-08-26,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+566,160,Email,4,2026-08-27,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+567,161,Email,1,2026-06-14,Objecao,Orcamento comprometido,Respondeu que nao e prioridade neste momento
+568,161,Email,2,2026-06-20,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+569,161,Email,3,2026-06-28,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+570,161,Email,4,2026-06-22,Sem resposta,,Nenhuma resposta ate o momento
+571,162,Email,1,2026-09-16,Sem resposta,,Nenhuma resposta ate o momento
+572,163,Email,1,2026-06-04,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+573,163,WhatsApp,2,2026-06-09,Nao perturbe,,Solicitou remocao da lista de prospeccao
+574,163,Email,3,2026-06-19,Objecao,,"Disse que a decisao nao e dele, indicou outro contato"
+575,163,WhatsApp,4,2026-06-17,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+576,163,Email,5,2026-06-26,Sem resposta,,Nenhuma resposta ate o momento
+577,163,LinkedIn,6,2026-07-01,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+578,164,WhatsApp,1,2026-03-28,Sem resposta,,Nenhuma resposta ate o momento
+579,164,WhatsApp,2,2026-03-29,Sem resposta,,Nenhuma resposta ate o momento
+580,164,Email,3,2026-04-04,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+581,164,Email,4,2026-04-04,Sem resposta,,Nenhuma resposta ate o momento
+582,164,WhatsApp,5,2026-04-17,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+583,164,Email,6,2026-04-16,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+584,165,WhatsApp,1,2026-08-29,Objecao,Nao sou eu quem decide,"Disse que a decisao nao e dele, indicou outro contato"
+585,165,WhatsApp,2,2026-09-05,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+586,165,WhatsApp,3,2026-09-10,Sem resposta,,Nenhuma resposta ate o momento
+587,165,WhatsApp,4,2026-09-11,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+588,166,Email,1,2026-04-10,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+589,166,Email,2,2026-04-16,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+590,166,Email,3,2026-04-15,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+591,166,Email,4,2026-04-18,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+592,167,LinkedIn,1,2026-08-26,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+593,167,WhatsApp,2,2026-09-01,Objecao,Nao e prioridade este ano,Informou que o orcamento do ano ja esta comprometido
+594,167,LinkedIn,3,2026-09-01,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+595,168,Email,1,2026-04-11,Sem resposta,,Nenhuma resposta ate o momento
+596,168,Email,2,2026-04-18,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+597,168,WhatsApp,3,2026-04-17,Sem resposta,,Nenhuma resposta ate o momento
+598,169,WhatsApp,1,2026-04-12,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+599,169,Email,2,2026-04-19,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+600,169,LinkedIn,3,2026-04-27,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+601,169,LinkedIn,4,2026-05-03,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+602,169,Email,5,2026-05-04,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+603,169,LinkedIn,6,2026-04-27,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+604,170,LinkedIn,1,2026-07-10,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+605,170,WhatsApp,2,2026-07-13,Sem resposta,,Nenhuma resposta ate o momento
+606,171,WhatsApp,1,2026-07-07,Sem resposta,,Nenhuma resposta ate o momento
+607,171,WhatsApp,2,2026-07-10,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+608,171,LinkedIn,3,2026-07-22,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+609,171,Email,4,2026-07-28,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+610,171,WhatsApp,5,2026-07-29,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+611,171,Email,6,2026-07-22,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+612,172,Email,1,2026-09-08,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+613,172,WhatsApp,2,2026-09-13,Sem resposta,,Nenhuma resposta ate o momento
+614,172,WhatsApp,3,2026-09-14,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+615,173,LinkedIn,1,2026-05-28,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+616,173,WhatsApp,2,2026-06-04,Objecao,Ja temos parceiro,"Disse que a decisao nao e dele, indicou outro contato"
+617,173,Email,3,2026-06-10,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+618,174,Email,1,2026-05-30,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+619,174,Email,2,2026-06-03,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+620,174,Email,3,2026-06-10,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+621,174,LinkedIn,4,2026-06-11,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+622,174,LinkedIn,5,2026-06-15,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+623,175,WhatsApp,1,2026-06-25,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+624,175,LinkedIn,2,2026-06-27,Sem resposta,,Nenhuma resposta ate o momento
+625,176,LinkedIn,1,2026-04-06,Nao perturbe,,Solicitou remocao da lista de prospeccao
+626,176,LinkedIn,2,2026-04-06,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+627,176,WhatsApp,3,2026-04-09,Objecao,Nao e prioridade este ano,"Pediu para so enviar material por email, sem call"
+628,177,Email,1,2026-04-04,Objecao,Nao sou eu quem decide,Disse que ja tem um parceiro atendendo esse escopo
+629,177,LinkedIn,2,2026-04-11,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+630,177,Email,3,2026-04-11,Sem resposta,,Nenhuma resposta ate o momento
+631,177,Email,4,2026-04-11,Sem resposta,,Nenhuma resposta ate o momento
+632,177,LinkedIn,5,2026-04-14,Nao perturbe,,Solicitou remocao da lista de prospeccao
+633,177,Email,6,2026-05-05,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+634,178,WhatsApp,1,2026-06-26,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+635,178,Email,2,2026-07-01,Nao perturbe,,Solicitou remocao da lista de prospeccao
+636,179,WhatsApp,1,2026-08-04,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+637,179,WhatsApp,2,2026-08-06,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+638,179,Email,3,2026-08-09,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+639,179,WhatsApp,4,2026-08-20,Nao perturbe,,Solicitou remocao da lista de prospeccao
+640,179,Email,5,2026-08-25,Objecao,Nao e prioridade este ano,"Pediu para so enviar material por email, sem call"
+641,179,WhatsApp,6,2026-08-24,Objecao,Manda material por email,Respondeu que nao e prioridade neste momento
+642,180,Email,1,2026-07-07,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+643,180,Email,2,2026-07-10,Sem resposta,,Nenhuma resposta ate o momento
+644,180,Email,3,2026-07-14,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+645,180,WhatsApp,4,2026-07-22,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+646,180,Email,5,2026-07-17,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+647,181,Email,1,2026-08-16,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+648,181,WhatsApp,2,2026-08-23,Sem resposta,,Nenhuma resposta ate o momento
+649,181,WhatsApp,3,2026-08-28,Sem resposta,,Nenhuma resposta ate o momento
+650,181,WhatsApp,4,2026-08-25,Sem resposta,,Nenhuma resposta ate o momento
+651,181,WhatsApp,5,2026-08-28,Objecao,,Disse que ja tem um parceiro atendendo esse escopo
+652,181,WhatsApp,6,2026-09-12,Sem resposta,,Nenhuma resposta ate o momento
+653,182,LinkedIn,1,2026-09-09,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+654,182,LinkedIn,2,2026-09-16,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+655,182,LinkedIn,3,2026-09-16,Objecao,,Disse que ja tem um parceiro atendendo esse escopo
+656,183,LinkedIn,1,2026-05-27,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+657,183,Email,2,2026-06-05,Nao perturbe,,Solicitou remocao da lista de prospeccao
+658,183,Email,3,2026-06-02,Sem resposta,,Nenhuma resposta ate o momento
+659,183,LinkedIn,4,2026-06-05,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+660,183,Email,5,2026-06-18,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+661,184,LinkedIn,1,2026-04-26,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+662,184,LinkedIn,2,2026-05-02,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+663,184,Email,3,2026-05-10,Sem resposta,,Nenhuma resposta ate o momento
+664,184,LinkedIn,4,2026-05-04,Objecao,Manda material por email,Informou que o orcamento do ano ja esta comprometido
+665,185,Email,1,2026-07-30,Sem resposta,,Nenhuma resposta ate o momento
+666,185,LinkedIn,2,2026-08-01,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+667,185,WhatsApp,3,2026-08-10,Objecao,Ja temos parceiro,"Disse que a decisao nao e dele, indicou outro contato"
+668,185,LinkedIn,4,2026-08-07,Sem resposta,,Nenhuma resposta ate o momento
+669,185,WhatsApp,5,2026-08-15,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+670,186,LinkedIn,1,2026-05-12,Objecao,Ja temos parceiro,"Disse que a decisao nao e dele, indicou outro contato"
+671,186,Email,2,2026-05-16,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+672,187,Email,1,2026-06-01,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+673,187,WhatsApp,2,2026-06-04,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+674,187,WhatsApp,3,2026-06-05,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+675,187,WhatsApp,4,2026-06-16,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+676,188,Email,1,2026-05-16,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+677,188,LinkedIn,2,2026-05-18,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+678,188,LinkedIn,3,2026-05-25,Objecao,Nao sou eu quem decide,Respondeu que nao e prioridade neste momento
+679,188,LinkedIn,4,2026-06-03,Objecao,Ja temos parceiro,"Pediu para so enviar material por email, sem call"
+680,188,Email,5,2026-06-09,Sem resposta,,Nenhuma resposta ate o momento
+681,189,LinkedIn,1,2026-08-26,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+682,189,LinkedIn,2,2026-08-29,Sem resposta,,Nenhuma resposta ate o momento
+683,189,Email,3,2026-09-08,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+684,190,Email,1,2026-08-14,Sem resposta,,Nenhuma resposta ate o momento
+685,190,LinkedIn,2,2026-08-23,Sem resposta,,Nenhuma resposta ate o momento
+686,190,Email,3,2026-08-29,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+687,190,LinkedIn,4,2026-08-23,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+688,190,LinkedIn,5,2026-09-10,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+689,190,LinkedIn,6,2026-09-16,Sem resposta,,Nenhuma resposta ate o momento
+690,191,WhatsApp,1,2026-04-17,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+691,191,Email,2,2026-04-21,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+692,191,WhatsApp,3,2026-04-25,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+693,191,Email,4,2026-04-25,Sem resposta,,Nenhuma resposta ate o momento
+694,191,WhatsApp,5,2026-05-03,Sem resposta,,Nenhuma resposta ate o momento
+695,191,WhatsApp,6,2026-05-07,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+696,192,Email,1,2026-04-08,Objecao,Nao sou eu quem decide,"Disse que a decisao nao e dele, indicou outro contato"
+697,192,WhatsApp,2,2026-04-13,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+698,192,WhatsApp,3,2026-04-14,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+699,192,Email,4,2026-04-17,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+700,192,WhatsApp,5,2026-04-30,Objecao,Nao sou eu quem decide,"Disse que a decisao nao e dele, indicou outro contato"
+701,192,WhatsApp,6,2026-05-05,Objecao,Manda material por email,"Disse que a decisao nao e dele, indicou outro contato"
+702,193,LinkedIn,1,2026-04-24,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+703,193,WhatsApp,2,2026-05-03,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+704,193,LinkedIn,3,2026-05-09,Sem resposta,,Nenhuma resposta ate o momento
+705,194,Email,1,2026-08-02,Sem resposta,,Nenhuma resposta ate o momento
+706,194,WhatsApp,2,2026-08-09,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+707,195,Email,1,2026-05-22,Sem resposta,,Nenhuma resposta ate o momento
+708,195,Email,2,2026-05-26,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+709,196,Email,1,2026-07-22,Objecao,,"Disse que a decisao nao e dele, indicou outro contato"
+710,196,Email,2,2026-07-24,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+711,196,LinkedIn,3,2026-08-03,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+712,196,LinkedIn,4,2026-07-28,Sem resposta,,Nenhuma resposta ate o momento
+713,197,WhatsApp,1,2026-04-07,Objecao,,Informou que o orcamento do ano ja esta comprometido
+714,197,WhatsApp,2,2026-04-14,Objecao,Nao sou eu quem decide,Informou que o orcamento do ano ja esta comprometido
+715,197,Email,3,2026-04-16,Objecao,Ja temos parceiro,"Disse que a decisao nao e dele, indicou outro contato"
+716,197,Email,4,2026-04-24,Objecao,Orcamento comprometido,"Pediu para so enviar material por email, sem call"
+717,197,Email,5,2026-04-24,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+718,198,Email,1,2026-05-24,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+719,198,Email,2,2026-05-29,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+720,198,LinkedIn,3,2026-06-02,Objecao,Nao sou eu quem decide,Disse que ja tem um parceiro atendendo esse escopo
+721,198,WhatsApp,4,2026-06-06,Sem resposta,,Nenhuma resposta ate o momento
+722,199,Email,1,2026-06-10,Sem resposta,,Nenhuma resposta ate o momento
+723,199,LinkedIn,2,2026-06-14,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+724,199,Email,3,2026-06-15,Sem resposta,,Nenhuma resposta ate o momento
+725,199,LinkedIn,4,2026-06-22,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+726,199,LinkedIn,5,2026-07-06,Objecao,,Respondeu que nao e prioridade neste momento
+727,200,WhatsApp,1,2026-07-12,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+728,200,Email,2,2026-07-18,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+729,200,WhatsApp,3,2026-07-23,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+730,201,WhatsApp,1,2026-05-16,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+731,201,LinkedIn,2,2026-05-19,Sem resposta,,Nenhuma resposta ate o momento
+732,201,LinkedIn,3,2026-05-26,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+733,201,WhatsApp,4,2026-06-04,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+734,201,LinkedIn,5,2026-05-31,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+735,202,WhatsApp,1,2026-08-29,Sem resposta,,Nenhuma resposta ate o momento
+736,202,Email,2,2026-09-01,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+737,202,WhatsApp,3,2026-09-10,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+738,202,Email,4,2026-09-07,Sem resposta,,Nenhuma resposta ate o momento
+739,202,Email,5,2026-09-10,Sem resposta,,Nenhuma resposta ate o momento
+740,202,Email,6,2026-09-13,Respondeu,,Perguntou sobre volume de dados processado e tempo de implantacao
+741,203,WhatsApp,1,2026-06-30,Objecao,Nao sou eu quem decide,"Pediu para so enviar material por email, sem call"
+742,203,WhatsApp,2,2026-07-04,Sem resposta,,Nenhuma resposta ate o momento
+743,203,WhatsApp,3,2026-07-03,Sem resposta,,Nenhuma resposta ate o momento
+744,203,Email,4,2026-07-18,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+745,203,Email,5,2026-07-09,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+746,203,WhatsApp,6,2026-07-12,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+747,204,Email,1,2026-09-10,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+748,204,Email,2,2026-09-11,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+749,205,WhatsApp,1,2026-04-11,Sem resposta,,Nenhuma resposta ate o momento
+750,205,LinkedIn,2,2026-04-13,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+751,205,WhatsApp,3,2026-04-14,Objecao,Nao sou eu quem decide,"Disse que a decisao nao e dele, indicou outro contato"
+752,206,LinkedIn,1,2026-06-01,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+753,206,LinkedIn,2,2026-06-07,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+754,206,Email,3,2026-06-13,Nao perturbe,,Solicitou remocao da lista de prospeccao
+755,206,Email,4,2026-06-15,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+756,206,LinkedIn,5,2026-06-20,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+757,207,Email,1,2026-08-12,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+758,207,Email,2,2026-08-19,Sem resposta,,Nenhuma resposta ate o momento
+759,207,LinkedIn,3,2026-08-16,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+760,207,Email,4,2026-08-27,Nao perturbe,,Pediu para nao ser mais contatado sobre o tema
+761,207,WhatsApp,5,2026-08-22,Objecao,Orcamento comprometido,"Disse que a decisao nao e dele, indicou outro contato"
+762,208,Email,1,2026-07-01,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+763,208,WhatsApp,2,2026-07-05,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+764,208,LinkedIn,3,2026-07-09,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+765,208,WhatsApp,4,2026-07-21,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+766,208,LinkedIn,5,2026-07-12,Objecao,Manda material por email,Respondeu que nao e prioridade neste momento
+767,208,WhatsApp,6,2026-08-02,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+768,209,Email,1,2026-04-28,Respondeu,,Perguntou como funciona a alocacao de especialista sem abrir headcount
+769,209,LinkedIn,2,2026-05-07,Sem resposta,,Nenhuma resposta ate o momento
+770,209,LinkedIn,3,2026-05-10,Reuniao marcada,,Confirmou call para semana seguinte para discutir escopo tecnico
+771,209,WhatsApp,4,2026-05-07,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+772,209,LinkedIn,5,2026-05-10,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+773,209,LinkedIn,6,2026-05-13,Sem resposta,,Nenhuma resposta ate o momento
+774,210,Email,1,2026-05-18,Sem resposta,,Nenhuma resposta ate o momento
+775,210,Email,2,2026-05-19,Objecao,Nao e prioridade este ano,Respondeu que nao e prioridade neste momento
+776,210,Email,3,2026-05-22,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+777,210,Email,4,2026-05-25,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+778,210,WhatsApp,5,2026-06-07,Sem resposta,,Nenhuma resposta ate o momento
+779,210,Email,6,2026-06-12,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+780,211,Email,1,2026-03-31,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+781,211,WhatsApp,2,2026-04-02,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+782,211,Email,3,2026-04-06,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+783,212,Email,1,2026-03-23,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+784,212,Email,2,2026-03-30,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+785,212,WhatsApp,3,2026-03-29,Objecao,,"Disse que a decisao nao e dele, indicou outro contato"
+786,212,LinkedIn,4,2026-04-13,Respondeu,,Questionou sobre integracao com o ambiente de nuvem que ja usam
+787,213,LinkedIn,1,2026-05-16,Objecao,,Disse que ja tem um parceiro atendendo esse escopo
+788,213,Email,2,2026-05-18,Sem resposta,,Nenhuma resposta ate o momento
+789,213,Email,3,2026-05-21,Sem resposta,,Nenhuma resposta ate o momento
+790,214,WhatsApp,1,2026-08-30,Sem resposta,,Nenhuma resposta ate o momento
+791,214,WhatsApp,2,2026-09-01,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+792,214,WhatsApp,3,2026-09-11,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+793,214,Email,4,2026-09-05,Sem resposta,,Nenhuma resposta ate o momento
+794,214,WhatsApp,5,2026-09-13,Sem resposta,,Nenhuma resposta ate o momento
+795,215,LinkedIn,1,2026-08-19,Sem resposta,,Nenhuma resposta ate o momento
+796,215,LinkedIn,2,2026-08-26,Objecao,Orcamento comprometido,"Disse que a decisao nao e dele, indicou outro contato"
+797,215,LinkedIn,3,2026-08-23,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+798,215,LinkedIn,4,2026-09-07,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+799,215,WhatsApp,5,2026-09-08,Respondeu,,Pediu para encaminhar o material para o time tecnico avaliar
+800,215,WhatsApp,6,2026-09-01,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+801,216,WhatsApp,1,2026-08-03,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+802,216,Email,2,2026-08-08,Sem resposta,,Nenhuma resposta ate o momento
+803,217,Email,1,2026-08-10,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+804,217,LinkedIn,2,2026-08-15,Reuniao marcada,,Reuniao marcada apos troca sobre caso de uso similar ao deles
+805,217,LinkedIn,3,2026-08-23,Reuniao marcada,,Aceitou reuniao para apresentar a solucao em detalhe
+806,218,Email,1,2026-04-10,Sem resposta,,"Mensagem visualizada no LinkedIn, sem retorno"
+807,218,Email,2,2026-04-12,Objecao,Nao sou eu quem decide,"Pediu para so enviar material por email, sem call"
+808,218,LinkedIn,3,2026-04-24,Sem resposta,,Nenhuma resposta ate o momento
+809,219,LinkedIn,1,2026-04-22,Respondeu,,Pediu mais detalhes sobre governanca e controle de acesso a dado sensivel
+810,219,LinkedIn,2,2026-04-25,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+811,219,Email,3,2026-04-29,Sem resposta,,Nenhuma resposta ate o momento
+812,219,Email,4,2026-05-03,Objecao,Nao sou eu quem decide,Informou que o orcamento do ano ja esta comprometido
+813,220,Email,1,2026-09-13,Respondeu,,Confirmou interesse mas pediu para retomar apos o fechamento do trimestre
+814,220,Email,2,2026-09-14,Sem resposta,,Nenhuma resposta ate o momento

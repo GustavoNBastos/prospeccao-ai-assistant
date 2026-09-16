@@ -1,0 +1,221 @@
+lead_id,nome_contato,cargo,empresa,setor,trilha,oferta_principal,origem,responsavel_sdr,status_funil,data_criacao,icp_fit_score,modo
+1,Sra. Vitória Albuquerque,Analista de Dados,Casa Grande,Geral,T-DADOS,Plataforma de dados e governanca,Inbound,Bruno Alves,Reuniao Agendada,2026-07-15,5,Lead a lead
+2,Letícia Ribeiro,Coordenadora de Infraestrutura,Pastor - ME,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Bruno Alves,Qualificado,2026-08-23,1,Lead a lead
+3,Davi Luiz da Luz,Gestor de Infraestrutura,Cirino,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Bruno Alves,Qualificando,2026-04-29,3,Lead a lead
+4,Cauê Souza,CTO,Aragão - EI,Geral,T-EXEC,Modernizacao e IA em producao,Evento,Fernanda Lima,Qualificando,2026-08-06,2,Lead a lead
+5,Daniela da Mata,Head de Produto,Cassiano,Financeiro,T-PROD,IA embarcada no produto,Outbound,Fernanda Lima,Perdido,2026-06-10,5,Account-based
+6,Gustavo Henrique Silva,Coordenador de TI,Peixoto Ltda.,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Rafael Souza,Novo,2026-05-01,3,Lead a lead
+7,Sr. João Montenegro,CISO,Castro,Geral,T-EXEC,Modernizacao e IA em producao,Outbound,Bruno Alves,Reuniao Agendada,2026-08-29,1,Lead a lead
+8,Isis Aragão,CTO,Casa Grande,Geral,T-EXEC,Modernizacao e IA em producao,Indicacao,Bruno Alves,Qualificando,2026-05-22,2,Lead a lead
+9,Otávio da Mota,Analista de Dados,Fogaça,Geral,T-DADOS,Plataforma de dados e governanca,Inbound,Bruno Alves,Qualificado,2026-08-03,3,Account-based
+10,Alexandre Farias,Product Manager,Carvalho Moraes - ME,Geral,T-PROD,IA embarcada no produto,Inbound,Camila Rocha,Perdido,2026-09-01,4,Lead a lead
+11,João Castro,Coordenador de TI,da Luz Gonçalves S.A.,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Rafael Souza,Qualificando,2026-06-27,4,Account-based
+12,Sra. Mariane Novais,Coordenador de TI,Guerra Araújo S.A.,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Juliana Prado,Qualificando,2026-04-25,5,Lead a lead
+13,Daniel Barbosa,Gerente de TI,da Luz Moura - EI,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Camila Rocha,Perdido,2026-05-12,2,Account-based
+14,Srta. Ísis Andrade,Gestor de Infraestrutura,da Mota Rios - ME,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Rafael Souza,Qualificado,2026-08-30,4,Account-based
+15,Sr. Pedro Cardoso,Gestor de Infraestrutura,Correia Correia - EI,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Fernanda Lima,Novo,2026-08-17,4,Account-based
+16,Leandro Fonseca,Coordenador de TI,da Luz Gonçalves S.A.,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Juliana Prado,Perdido,2026-07-10,3,Account-based
+17,Luiz Henrique Costela,Diretor de Tecnologia,Novaes,Financeiro,T-EXEC,Modernizacao e IA em producao,Outbound,Juliana Prado,Qualificando,2026-08-05,1,Lead a lead
+18,Isadora Rios,Coordenadora de Infraestrutura,Rodrigues Duarte S/A,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Juliana Prado,Perdido,2026-09-01,1,Account-based
+19,Luiz Gustavo Vasconcelos,Analista de Dados,Macedo,Geral,T-DADOS,Plataforma de dados e governanca,Inbound,Rafael Souza,Perdido,2026-08-14,2,Lead a lead
+20,Maria Luísa Pinto,Coordenador de Suporte,Pereira e Filhos,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Fernanda Lima,Qualificando,2026-04-30,3,Account-based
+21,Srta. Isabela Castro,Gestor de Infraestrutura,Aparecida,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Camila Rocha,Qualificando,2026-07-14,5,Lead a lead
+22,Noah Alves,Gestor de Infraestrutura,Alves e Filhos,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Bruno Alves,Novo,2026-08-28,1,Lead a lead
+23,Lucas Gabriel Viana,CTO,Rodrigues Duarte S/A,Geral,T-EXEC,Modernizacao e IA em producao,Evento,Bruno Alves,Qualificado,2026-07-06,5,Account-based
+24,Isadora da Mata,Gerente de TI,Aragão - EI,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Camila Rocha,Novo,2026-06-03,4,Lead a lead
+25,Cauê Garcia,IT Manager,da Luz,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Camila Rocha,Qualificando,2026-09-02,3,Lead a lead
+26,Ravy Câmara,CTO,Castro,Geral,T-EXEC,Modernizacao e IA em producao,Evento,Bruno Alves,Qualificando,2026-07-29,3,Lead a lead
+27,Raul Ferreira,Gerente de TI,Aragão - EI,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Camila Rocha,Reuniao Agendada,2026-04-28,5,Lead a lead
+28,Ian Câmara,CTO,Pacheco Peixoto S/A,Geral,T-EXEC,Modernizacao e IA em producao,Inbound,Rafael Souza,Qualificado,2026-07-17,2,Lead a lead
+29,Gael Guerra,CTO,Rodrigues e Filhos,Financeiro,T-EXEC,Modernizacao e IA em producao,Evento,Fernanda Lima,Perdido,2026-09-15,4,Lead a lead
+30,Dr. Bernardo Vargas,Coordenador de Suporte,Cassiano,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Bruno Alves,Novo,2026-04-26,2,Account-based
+31,Luiz Fernando Ramos,Product Manager,Fonseca,Geral,T-PROD,IA embarcada no produto,Outbound,Juliana Prado,Qualificado,2026-09-01,5,Lead a lead
+32,Maria Liz Rocha,Coordenador de Suporte,Pacheco Peixoto S/A,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Juliana Prado,Novo,2026-07-30,2,Lead a lead
+33,Luísa Alves,Gestor de Infraestrutura,da Conceição S/A,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Juliana Prado,Novo,2026-04-16,5,Lead a lead
+34,José Pedro Cavalcanti,IT Manager,Rios da Mata e Filhos,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Bruno Alves,Qualificando,2026-03-28,2,Lead a lead
+35,Julia Andrade,Coordenador de Analytics,Fonseca,Geral,T-DADOS,Plataforma de dados e governanca,Outbound,Rafael Souza,Qualificado,2026-08-28,5,Lead a lead
+36,Pedro Henrique Ferreira,Product Manager,Pereira e Filhos,Geral,T-PROD,IA embarcada no produto,Indicacao,Bruno Alves,Perdido,2026-05-09,1,Account-based
+37,Sra. Maya Pereira,CISO,Santos Azevedo S/A,Geral,T-EXEC,Modernizacao e IA em producao,Indicacao,Juliana Prado,Perdido,2026-05-26,5,Lead a lead
+38,Bruna Gomes,Coordenador de Suporte,Freitas da Paz S.A.,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Bruno Alves,Qualificando,2026-03-30,1,Lead a lead
+39,Esther da Cunha,Data Engineer,Carvalho,Geral,T-DADOS,Plataforma de dados e governanca,Inbound,Fernanda Lima,Qualificando,2026-04-14,3,Account-based
+40,Pedro Henrique Abreu,IT Manager,Cassiano,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Fernanda Lima,Novo,2026-04-06,3,Account-based
+41,Zoe Rodrigues,Coordenador de Analytics,Jesus Mendonça - ME,Financeiro,T-DADOS,Plataforma de dados e governanca,Evento,Juliana Prado,Novo,2026-05-25,1,Lead a lead
+42,Dra. Fernanda Fonseca,Coordenador de Compras,Campos,Financeiro,T-FIN,FinOps e contrato unico,Indicacao,Juliana Prado,Qualificado,2026-09-06,4,Lead a lead
+43,Ana Lívia Rios,Coordenadora de Infraestrutura,Albuquerque - ME,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Bruno Alves,Reuniao Agendada,2026-09-05,1,Lead a lead
+44,Dr. Davi Silveira,Gestor de Infraestrutura,Jesus,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Bruno Alves,Perdido,2026-08-07,2,Lead a lead
+45,Thiago das Neves,CFO,Jesus Mendonça - ME,Financeiro,T-FIN,FinOps e contrato unico,Evento,Bruno Alves,Qualificando,2026-06-22,1,Lead a lead
+46,Maria Luísa Duarte,Gerente de TI,Nascimento Siqueira S.A.,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Fernanda Lima,Qualificando,2026-07-26,2,Lead a lead
+47,Laís Novaes,Coordenador de Suporte,Camargo,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Camila Rocha,Perdido,2026-06-23,3,Lead a lead
+48,Gael Leão,Gestor de Infraestrutura,Caldeira,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Camila Rocha,Novo,2026-05-01,3,Account-based
+49,Maria Helena Rocha,Coordenadora de Infraestrutura,Garcia S/A,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Fernanda Lima,Reuniao Agendada,2026-04-16,3,Lead a lead
+50,Srta. Liz Guerra,Gestor de Infraestrutura,Rodrigues - EI,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Fernanda Lima,Novo,2026-04-21,4,Lead a lead
+51,Agatha da Rosa,Coordenador de Suporte,Aragão e Filhos,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Fernanda Lima,Qualificando,2026-03-28,3,Lead a lead
+52,Gustavo Henrique Lopes,Gestor de Infraestrutura,Aragão e Filhos,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Rafael Souza,Qualificando,2026-07-01,3,Lead a lead
+53,Luna Martins,Gerente de TI,Araújo - ME,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Juliana Prado,Qualificado,2026-06-10,4,Account-based
+54,Melina Rocha,Gerente de TI,Carvalho,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Juliana Prado,Qualificado,2026-07-24,3,Account-based
+55,Thomas Melo,IT Manager,Pereira e Filhos,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Bruno Alves,Reuniao Agendada,2026-05-08,3,Account-based
+56,Srta. Antonella da Paz,Gestor de Infraestrutura,Sá S/A,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Fernanda Lima,Qualificando,2026-08-23,2,Lead a lead
+57,Lívia Borges,Coordenador de TI,Fonseca Ltda.,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Rafael Souza,Qualificando,2026-04-12,5,Lead a lead
+58,Leonardo Câmara,Coordenador de Suporte,Azevedo,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Bruno Alves,Reuniao Agendada,2026-06-05,1,Lead a lead
+59,Diogo Alves,CFO,Montenegro,Geral,T-FIN,FinOps e contrato unico,Inbound,Juliana Prado,Qualificado,2026-07-21,5,Account-based
+60,Joaquim Melo,Coordenador de TI,Garcia S/A,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Rafael Souza,Qualificado,2026-05-20,5,Lead a lead
+61,Ana Sophia Marques,Gestor de Infraestrutura,Sá,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Rafael Souza,Qualificando,2026-08-06,2,Lead a lead
+62,Evelyn Silva,CISO,Sampaio,Geral,T-EXEC,Modernizacao e IA em producao,Evento,Bruno Alves,Qualificando,2026-05-05,1,Lead a lead
+63,Sra. Sabrina Guerra,Data Engineer,Sá S/A,Geral,T-DADOS,Plataforma de dados e governanca,Outbound,Bruno Alves,Novo,2026-06-26,4,Lead a lead
+64,Diogo Rezende,Data Engineer,Marques Abreu e Filhos,Financeiro,T-DADOS,Plataforma de dados e governanca,Indicacao,Juliana Prado,Qualificado,2026-06-03,1,Account-based
+65,Srta. Bianca Vasconcelos,Coordenadora de Infraestrutura,Albuquerque - ME,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Juliana Prado,Qualificando,2026-04-19,1,Lead a lead
+66,Hellena Cavalcanti,Gerente Financeiro,Rodrigues - EI,Geral,T-FIN,FinOps e contrato unico,Inbound,Rafael Souza,Qualificando,2026-05-31,4,Lead a lead
+67,Dra. Nicole Aragão,IT Manager,Araújo - ME,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Bruno Alves,Perdido,2026-03-26,2,Account-based
+68,Isadora Campos,Product Manager,Farias S/A,Geral,T-PROD,IA embarcada no produto,Outbound,Camila Rocha,Qualificado,2026-04-24,2,Lead a lead
+69,Catarina Martins,Diretor de Tecnologia,Nunes Silva Ltda.,Financeiro,T-EXEC,Modernizacao e IA em producao,Indicacao,Bruno Alves,Qualificado,2026-06-10,3,Lead a lead
+70,Vitória Novais,Head de Dados,Abreu,Geral,T-DADOS,Plataforma de dados e governanca,Indicacao,Camila Rocha,Qualificado,2026-05-31,5,Lead a lead
+71,Luiza Sá,Coordenadora de Infraestrutura,Siqueira,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Camila Rocha,Perdido,2026-08-29,2,Lead a lead
+72,Sofia Lima,Diretor de Tecnologia,Nascimento,Geral,T-EXEC,Modernizacao e IA em producao,Outbound,Juliana Prado,Perdido,2026-05-17,4,Lead a lead
+73,Melissa Castro,Coordenador de Analytics,Nogueira Cardoso e Filhos,Financeiro,T-DADOS,Plataforma de dados e governanca,Outbound,Bruno Alves,Perdido,2026-04-13,1,Lead a lead
+74,Sra. Milena da Luz,IT Manager,Caldeira,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Bruno Alves,Novo,2026-06-11,2,Account-based
+75,João Guilherme Vargas,Coordenadora de Infraestrutura,da Mota Rios - ME,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Fernanda Lima,Qualificado,2026-08-16,3,Account-based
+76,Raquel Pires,Coordenador de Suporte,da Cruz,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Camila Rocha,Qualificando,2026-05-31,3,Account-based
+77,João Guilherme Macedo,Head de Dados,Oliveira,Geral,T-DADOS,Plataforma de dados e governanca,Inbound,Juliana Prado,Perdido,2026-05-27,3,Lead a lead
+78,João Pedro da Costa,Gestor de Infraestrutura,Araújo da Costa - EI,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Juliana Prado,Qualificando,2026-05-19,2,Lead a lead
+79,Lucas Gabriel Dias,CTO,da Luz Gonçalves S.A.,Geral,T-EXEC,Modernizacao e IA em producao,Inbound,Rafael Souza,Qualificado,2026-05-23,4,Account-based
+80,Anna Liz Carvalho,Coordenadora de Infraestrutura,Porto,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Fernanda Lima,Reuniao Agendada,2026-05-14,3,Account-based
+81,Igor Gomes,Coordenador de Suporte,da Luz Gonçalves S.A.,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Juliana Prado,Perdido,2026-07-07,1,Account-based
+82,Srta. Hadassa Azevedo,Coordenadora de Infraestrutura,Pastor - EI,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Rafael Souza,Qualificando,2026-07-16,1,Lead a lead
+83,Maria Luísa Farias,Coordenador de TI,Carvalho,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Juliana Prado,Qualificando,2026-07-15,5,Account-based
+84,Nina Leão,IT Manager,Câmara Azevedo Ltda.,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Rafael Souza,Qualificando,2026-06-23,3,Lead a lead
+85,Gustavo Leão,Coordenador de Suporte,Fonseca,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Bruno Alves,Qualificando,2026-08-16,4,Lead a lead
+86,Alícia Teixeira,Coordenador de Suporte,Silva das Neves - ME,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Camila Rocha,Perdido,2026-04-16,3,Lead a lead
+87,Maria Helena Mendes,Coordenador de TI,da Cruz,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Fernanda Lima,Novo,2026-05-02,1,Account-based
+88,Luiz Gustavo da Rosa,Gestor de Infraestrutura,Fogaça,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Camila Rocha,Qualificado,2026-05-13,4,Account-based
+89,Mariah Nascimento,IT Manager,Novais S.A.,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Camila Rocha,Perdido,2026-07-13,4,Lead a lead
+90,Dra. Ísis Pereira,Gestor de Infraestrutura,Correia Correia - EI,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Bruno Alves,Perdido,2026-09-02,3,Account-based
+91,Ryan Câmara,Coordenador de TI,Pastor - EI,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Juliana Prado,Qualificando,2026-06-01,4,Lead a lead
+92,Pedro Henrique Mendonça,Coordenador de Suporte,Pacheco,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Juliana Prado,Perdido,2026-04-23,1,Lead a lead
+93,Mathias Fernandes,CFO,Pereira e Filhos,Geral,T-FIN,FinOps e contrato unico,Outbound,Bruno Alves,Qualificando,2026-07-10,5,Account-based
+94,Maria Luiza Silveira,Coordenador de TI,Cassiano Freitas S.A.,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Fernanda Lima,Novo,2026-03-23,3,Lead a lead
+95,Ravi Lucca Cardoso,Head de Dados,Correia Correia - EI,Financeiro,T-DADOS,Plataforma de dados e governanca,Indicacao,Juliana Prado,Reuniao Agendada,2026-07-18,2,Account-based
+96,Yasmin Alves,Gestor de Infraestrutura,Jesus,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Bruno Alves,Novo,2026-08-08,2,Lead a lead
+97,Amanda Barros,CISO,Aparecida,Geral,T-EXEC,Modernizacao e IA em producao,Indicacao,Rafael Souza,Perdido,2026-05-19,5,Lead a lead
+98,Mariane Carvalho,IT Manager,da Mota Rios - ME,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Fernanda Lima,Qualificado,2026-09-05,1,Account-based
+99,Emilly Aragão,Coordenador de Suporte,Farias S/A,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Juliana Prado,Novo,2026-09-10,2,Lead a lead
+100,Mateus Duarte,Gestor de Infraestrutura,Montenegro da Luz S.A.,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Juliana Prado,Qualificando,2026-07-06,4,Lead a lead
+101,Rafael Duarte,Head de Produto,Lopes,Geral,T-PROD,IA embarcada no produto,Indicacao,Camila Rocha,Perdido,2026-06-22,3,Lead a lead
+102,Dr. João Lucas Sá,IT Manager,Rocha e Filhos,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Rafael Souza,Novo,2026-06-05,3,Lead a lead
+103,Isis Barros,Coordenadora de Infraestrutura,Araújo Moraes S/A,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Rafael Souza,Novo,2026-09-15,5,Lead a lead
+104,Allana Souza,IT Manager,Porto,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Fernanda Lima,Qualificado,2026-09-02,3,Account-based
+105,Ana Júlia Ferreira,Gestor de Infraestrutura,Aparecida,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Bruno Alves,Qualificando,2026-09-08,1,Lead a lead
+106,Bernardo Vasconcelos,Gerente de TI,Guerra Campos - EI,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Camila Rocha,Qualificado,2026-08-17,2,Lead a lead
+107,Ana Cecília Sá,Gestor de Infraestrutura,da Luz Moura - EI,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Rafael Souza,Perdido,2026-07-08,2,Account-based
+108,Josué Costa,Gerente de TI,Castro,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Camila Rocha,Qualificando,2026-04-15,4,Lead a lead
+109,Eduardo da Costa,Coordenador de Suporte,Araújo Moraes S/A,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Fernanda Lima,Perdido,2026-09-15,5,Lead a lead
+110,Renan Rios,Head de Produto,Cassiano Freitas S.A.,Financeiro,T-PROD,IA embarcada no produto,Evento,Fernanda Lima,Qualificando,2026-05-01,5,Lead a lead
+111,Henrique Martins,IT Manager,Cirino,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Bruno Alves,Perdido,2026-07-16,4,Lead a lead
+112,Sra. Maria Eduarda Cavalcante,Coordenador de Suporte,Martins,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Bruno Alves,Qualificado,2026-06-10,1,Lead a lead
+113,Bruna Vasconcelos,Coordenador de Suporte,Rios Silva Ltda.,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Camila Rocha,Qualificado,2026-08-21,4,Account-based
+114,Leonardo Caldeira,Coordenador de TI,Rios Silva Ltda.,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Camila Rocha,Qualificado,2026-04-01,3,Account-based
+115,Amanda das Neves,Coordenador de Suporte,Siqueira,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Juliana Prado,Qualificando,2026-08-26,3,Lead a lead
+116,Maria Flor Gonçalves,IT Manager,Alves S/A,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Bruno Alves,Qualificado,2026-04-10,3,Lead a lead
+117,Srta. Ana Vitória Pastor,Product Manager,Teixeira Fernandes S/A,Geral,T-PROD,IA embarcada no produto,Outbound,Rafael Souza,Novo,2026-04-06,3,Lead a lead
+118,Dra. Isabelly Caldeira,CFO,da Rocha Cunha S/A,Geral,T-FIN,FinOps e contrato unico,Indicacao,Fernanda Lima,Qualificando,2026-09-01,2,Account-based
+119,Sra. Bárbara Vieira,Coordenadora de Infraestrutura,Correia Correia - EI,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Bruno Alves,Novo,2026-07-31,4,Account-based
+120,Ana Cecília Ferreira,Gerente de TI,Barbosa - EI,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Bruno Alves,Qualificado,2026-04-19,3,Lead a lead
+121,Mariane Ribeiro,Gestor de Infraestrutura,Albuquerque - ME,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Juliana Prado,Novo,2026-05-19,4,Lead a lead
+122,Sr. Thiago Ramos,Coordenador de Compras,Fogaça,Geral,T-FIN,FinOps e contrato unico,Indicacao,Rafael Souza,Perdido,2026-05-30,2,Account-based
+123,Sr. Otto Mendonça,Head de Produto,Rodrigues Duarte S/A,Financeiro,T-PROD,IA embarcada no produto,Indicacao,Juliana Prado,Qualificando,2026-06-10,3,Account-based
+124,Pedro Fonseca,Coordenador de Suporte,Casa Grande,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Juliana Prado,Reuniao Agendada,2026-09-13,3,Lead a lead
+125,Natália Santos,Data Engineer,Souza Ltda.,Geral,T-DADOS,Plataforma de dados e governanca,Inbound,Bruno Alves,Qualificado,2026-06-17,2,Lead a lead
+126,Pedro Henrique Cavalcanti,Gestor de Infraestrutura,da Conceição Montenegro - EI,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Camila Rocha,Qualificado,2026-06-28,2,Lead a lead
+127,Dra. Júlia Pimenta,Coordenadora de Infraestrutura,Guerra Araújo S.A.,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Bruno Alves,Novo,2026-06-01,5,Lead a lead
+128,Rafaela Martins,CISO,Cardoso Ribeiro - ME,Geral,T-EXEC,Modernizacao e IA em producao,Inbound,Fernanda Lima,Perdido,2026-07-08,4,Lead a lead
+129,Juliana Duarte,Head de Produto,Rios Silva Ltda.,Geral,T-PROD,IA embarcada no produto,Outbound,Rafael Souza,Perdido,2026-06-21,2,Account-based
+130,Caio da Mota,Data Engineer,Aragão e Filhos,Geral,T-DADOS,Plataforma de dados e governanca,Evento,Juliana Prado,Qualificando,2026-03-27,4,Lead a lead
+131,Isabelly Sá,Coordenador de Suporte,Peixoto Ltda.,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Juliana Prado,Qualificando,2026-06-13,3,Lead a lead
+132,Maria Helena Fernandes,Coordenador de TI,Pastor - ME,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Juliana Prado,Qualificando,2026-04-10,1,Lead a lead
+133,Thales Duarte,Head de Dados,Souza,Geral,T-DADOS,Plataforma de dados e governanca,Evento,Camila Rocha,Novo,2026-04-02,1,Lead a lead
+134,Ryan Cunha,Coordenadora de Infraestrutura,Teixeira Fernandes S/A,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Rafael Souza,Qualificado,2026-07-17,5,Lead a lead
+135,Dr. Luigi da Mota,Gestor de Infraestrutura,Oliveira,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Rafael Souza,Qualificado,2026-06-01,3,Lead a lead
+136,Kamilly Novais,Coordenadora de Infraestrutura,Porto,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Fernanda Lima,Novo,2026-05-25,3,Account-based
+137,Valentim Correia,Gestor de Infraestrutura,Câmara,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Bruno Alves,Perdido,2026-06-06,4,Lead a lead
+138,Isaque Silveira,Coordenador de TI,Fogaça,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Camila Rocha,Reuniao Agendada,2026-04-16,2,Account-based
+139,Rebeca Novais,Product Manager,Azevedo Peixoto S/A,Financeiro,T-PROD,IA embarcada no produto,Inbound,Juliana Prado,Qualificando,2026-04-27,2,Account-based
+140,Renan Ramos,Coordenador de TI,Alves e Filhos,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Bruno Alves,Qualificado,2026-07-07,2,Lead a lead
+141,Sra. Melissa Vieira,Coordenador de TI,da Cruz,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Juliana Prado,Qualificando,2026-06-16,2,Account-based
+142,Caleb da Rocha,Coordenador de TI,Marques Abreu e Filhos,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Camila Rocha,Qualificado,2026-05-04,3,Account-based
+143,Nathan Sales,Gerente de TI,Cardoso Ribeiro - ME,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Juliana Prado,Qualificando,2026-07-21,1,Lead a lead
+144,Leandro Ribeiro,Coordenadora de Infraestrutura,Montenegro,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Rafael Souza,Reuniao Agendada,2026-03-24,4,Account-based
+145,Maria Eduarda Melo,Coordenador de TI,Nogueira Cardoso e Filhos,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Bruno Alves,Qualificando,2026-08-09,5,Lead a lead
+146,Vitória Ferreira,IT Manager,da Mota Rios - ME,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Rafael Souza,Qualificado,2026-05-03,4,Account-based
+147,Luísa Fogaça,Coordenador de Suporte,Leão e Filhos,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Rafael Souza,Qualificado,2026-04-01,2,Lead a lead
+148,Sra. Júlia das Neves,IT Manager,Marques Abreu e Filhos,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Rafael Souza,Qualificando,2026-08-22,3,Account-based
+149,Igor Campos,Gerente de TI,Azevedo,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Camila Rocha,Perdido,2026-05-17,1,Lead a lead
+150,Srta. Luara Campos,Gestor de Infraestrutura,Novaes,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Juliana Prado,Perdido,2026-08-13,5,Lead a lead
+151,Dra. Ester Correia,Coordenador de TI,Gomes - ME,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Camila Rocha,Perdido,2026-03-29,5,Lead a lead
+152,Rodrigo da Mota,Coordenador de TI,Cardoso Ribeiro - ME,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Rafael Souza,Qualificando,2026-07-23,1,Lead a lead
+153,Dra. Valentina Peixoto,Gestor de Infraestrutura,Ferreira,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Rafael Souza,Perdido,2026-07-06,5,Lead a lead
+154,Carlos Eduardo Correia,Gestor de Infraestrutura,Pastor - ME,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Camila Rocha,Novo,2026-04-13,3,Lead a lead
+155,Ian Fonseca,Gerente Financeiro,Porto,Financeiro,T-FIN,FinOps e contrato unico,Evento,Camila Rocha,Novo,2026-08-10,1,Account-based
+156,Kevin Albuquerque,Coordenador de Suporte,Rodrigues e Filhos,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Fernanda Lima,Novo,2026-05-31,3,Lead a lead
+157,Dra. Carolina da Mota,Analista de Dados,Oliveira,Financeiro,T-DADOS,Plataforma de dados e governanca,Outbound,Camila Rocha,Qualificando,2026-08-06,4,Lead a lead
+158,Benjamim Novaes,IT Manager,Rezende Monteiro - ME,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Fernanda Lima,Qualificando,2026-07-22,3,Lead a lead
+159,Davi Lucas Porto,Head de Dados,Araújo - ME,Geral,T-DADOS,Plataforma de dados e governanca,Outbound,Bruno Alves,Qualificando,2026-06-29,5,Account-based
+160,Bella Albuquerque,Coordenador de TI,Pereira e Filhos,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Fernanda Lima,Qualificando,2026-08-11,1,Account-based
+161,Larissa Melo,IT Manager,Nascimento,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Juliana Prado,Qualificado,2026-06-10,3,Lead a lead
+162,Maysa Fernandes,Coordenador de Suporte,Montenegro Caldeira e Filhos,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Camila Rocha,Perdido,2026-09-11,5,Lead a lead
+163,Benjamim da Cunha,IT Manager,Fogaça,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Camila Rocha,Qualificando,2026-06-01,3,Account-based
+164,Bruna Azevedo,Coordenador de Suporte,Azevedo Peixoto S/A,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Camila Rocha,Qualificando,2026-03-23,1,Account-based
+165,Rebeca Barbosa,Coordenador de Suporte,Silva das Neves - ME,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Fernanda Lima,Reuniao Agendada,2026-08-26,2,Lead a lead
+166,Ana Júlia Cassiano,Coordenador de TI,da Luz Moura - EI,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Juliana Prado,Qualificado,2026-04-06,3,Account-based
+167,Kevin Barros,Gestor de Infraestrutura,Rodrigues Duarte S/A,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Fernanda Lima,Novo,2026-08-20,5,Account-based
+168,Dante Novais,Coordenador de Suporte,Brito Garcia Ltda.,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Rafael Souza,Reuniao Agendada,2026-04-08,5,Lead a lead
+169,Heloisa Vasconcelos,Gestor de Infraestrutura,Fogaça,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Fernanda Lima,Novo,2026-04-09,1,Account-based
+170,Maria Helena Machado,Gestor de Infraestrutura,da Rocha Cunha S/A,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Fernanda Lima,Qualificado,2026-07-07,3,Account-based
+171,Letícia Pastor,Gerente de TI,Novaes,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Camila Rocha,Qualificado,2026-07-04,5,Lead a lead
+172,Lorena Nunes,Gestor de Infraestrutura,da Rocha Cunha S/A,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Juliana Prado,Reuniao Agendada,2026-09-05,3,Account-based
+173,Ana Liz Pimenta,Gestor de Infraestrutura,Câmara,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Fernanda Lima,Perdido,2026-05-23,1,Lead a lead
+174,Srta. Giovanna Pires,Gerente de TI,Andrade Dias - ME,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Juliana Prado,Qualificado,2026-05-26,2,Lead a lead
+175,João Ribeiro,IT Manager,Lopes,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Fernanda Lima,Novo,2026-06-21,1,Lead a lead
+176,Emanuel da Costa,IT Manager,Azevedo,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Fernanda Lima,Novo,2026-03-31,2,Lead a lead
+177,Yuri Barbosa,Gerente Financeiro,Cirino,Geral,T-FIN,FinOps e contrato unico,Evento,Bruno Alves,Qualificado,2026-03-30,1,Lead a lead
+178,Alexandre Jesus,Coordenadora de Infraestrutura,da Rocha Cunha S/A,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Juliana Prado,Novo,2026-06-23,4,Account-based
+179,Olivia da Rocha,Gerente de TI,Pacheco,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Fernanda Lima,Perdido,2026-07-31,4,Lead a lead
+180,Igor da Paz,Coordenador de TI,Abreu,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Juliana Prado,Reuniao Agendada,2026-07-02,5,Lead a lead
+181,Sra. Mirella Barbosa,Coordenadora de Infraestrutura,Jesus,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Bruno Alves,Novo,2026-08-13,5,Lead a lead
+182,Isabel da Luz,Diretor de Tecnologia,Porto,Geral,T-EXEC,Modernizacao e IA em producao,Evento,Fernanda Lima,Reuniao Agendada,2026-09-04,2,Account-based
+183,Fernanda Lima,Head de Produto,Guerra Araújo S.A.,Geral,T-PROD,IA embarcada no produto,Inbound,Juliana Prado,Qualificando,2026-05-24,4,Lead a lead
+184,Yago Câmara,CFO,Caldeira,Geral,T-FIN,FinOps e contrato unico,Evento,Rafael Souza,Reuniao Agendada,2026-04-22,4,Account-based
+185,Clarice da Mata,IT Manager,Montenegro,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Fernanda Lima,Novo,2026-07-26,4,Account-based
+186,Brayan Araújo,CTO,Pacheco Peixoto S/A,Geral,T-EXEC,Modernizacao e IA em producao,Outbound,Fernanda Lima,Novo,2026-05-06,2,Lead a lead
+187,Leandro Peixoto,Coordenador de Suporte,Azevedo Peixoto S/A,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Bruno Alves,Perdido,2026-05-27,3,Account-based
+188,Dra. Laura Macedo,Gerente Financeiro,Vargas,Financeiro,T-FIN,FinOps e contrato unico,Indicacao,Bruno Alves,Qualificando,2026-05-10,1,Lead a lead
+189,Ravi Lucca Sales,Gerente de TI,Freitas da Paz S.A.,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Bruno Alves,Novo,2026-08-21,3,Lead a lead
+190,Nathan da Mata,Gerente Financeiro,Azevedo Peixoto S/A,Geral,T-FIN,FinOps e contrato unico,Evento,Rafael Souza,Qualificado,2026-08-11,1,Account-based
+191,Ágatha Monteiro,Coordenador de TI,Câmara Azevedo Ltda.,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Camila Rocha,Reuniao Agendada,2026-04-13,2,Lead a lead
+192,Anna Liz Peixoto,Coordenador de TI,Marques Abreu e Filhos,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Camila Rocha,Novo,2026-04-05,4,Account-based
+193,Pedro Sousa,Gerente de TI,da Luz Moura - EI,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Bruno Alves,Qualificando,2026-04-21,1,Account-based
+194,Dr. Apollo Borges,Gerente de TI,Marques Abreu e Filhos,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Juliana Prado,Perdido,2026-07-30,1,Account-based
+195,Antônio Teixeira,Product Manager,Rios Silva Ltda.,Geral,T-PROD,IA embarcada no produto,Outbound,Rafael Souza,Perdido,2026-05-18,3,Account-based
+196,Juliana Oliveira,Coordenador de Analytics,Vieira Rodrigues - ME,Financeiro,T-DADOS,Plataforma de dados e governanca,Outbound,Juliana Prado,Reuniao Agendada,2026-07-16,3,Lead a lead
+197,Erick Melo,Coordenadora de Infraestrutura,Cassiano e Filhos,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Rafael Souza,Perdido,2026-04-04,4,Lead a lead
+198,Melina da Mota,Data Engineer,Barbosa Macedo - EI,Financeiro,T-DADOS,Plataforma de dados e governanca,Outbound,Fernanda Lima,Qualificando,2026-05-21,2,Lead a lead
+199,Pedro Henrique Porto,Gerente Financeiro,da Luz Moura - EI,Geral,T-FIN,FinOps e contrato unico,Evento,Fernanda Lima,Novo,2026-06-06,2,Account-based
+200,Ayla Melo,Coordenador de TI,Sá S/A,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Fernanda Lima,Qualificando,2026-07-08,4,Lead a lead
+201,Dr. Lucas Gabriel Duarte,Head de Dados,Porto,Geral,T-DADOS,Plataforma de dados e governanca,Evento,Fernanda Lima,Perdido,2026-05-11,5,Account-based
+202,Bella Castro,Coordenador de TI,Montenegro,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Evento,Juliana Prado,Perdido,2026-08-26,2,Account-based
+203,Dr. Thales da Paz,IT Manager,Sampaio Lima Ltda.,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Fernanda Lima,Qualificando,2026-06-24,4,Lead a lead
+204,Maria Liz Teixeira,Coordenadora de Infraestrutura,Cassiano Freitas S.A.,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Indicacao,Juliana Prado,Perdido,2026-09-05,3,Lead a lead
+205,Ana Carolina Marques,Analista de Dados,Araújo - ME,Financeiro,T-DADOS,Plataforma de dados e governanca,Evento,Fernanda Lima,Qualificado,2026-04-05,2,Account-based
+206,Levi da Cunha,Product Manager,Caldeira,Geral,T-PROD,IA embarcada no produto,Outbound,Bruno Alves,Novo,2026-05-26,3,Account-based
+207,Sr. Nathan Moraes,Gestor de Infraestrutura,Nogueira Cardoso e Filhos,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Evento,Fernanda Lima,Qualificando,2026-08-07,1,Lead a lead
+208,Vitor Hugo Martins,Gestor de Infraestrutura,Vargas,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Bruno Alves,Perdido,2026-06-27,1,Lead a lead
+209,Ana Júlia Correia,Head de Dados,Rodrigues - EI,Geral,T-DADOS,Plataforma de dados e governanca,Outbound,Fernanda Lima,Reuniao Agendada,2026-04-25,4,Lead a lead
+210,Maria Cecília Pinto,Coordenador de Suporte,Carvalho,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Camila Rocha,Novo,2026-05-13,1,Account-based
+211,Melina Teixeira,Gestor de Infraestrutura,Cassiano,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Fernanda Lima,Reuniao Agendada,2026-03-25,5,Account-based
+212,Gustavo da Mata,IT Manager,Barbosa Macedo - EI,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Fernanda Lima,Qualificado,2026-03-20,1,Lead a lead
+213,Caroline da Paz,Product Manager,da Rocha Cunha S/A,Geral,T-PROD,IA embarcada no produto,Outbound,Fernanda Lima,Qualificado,2026-05-12,3,Account-based
+214,Raquel Campos,Gestor de Infraestrutura,da Cruz,Financeiro,T-GESTAO,Otimizacao de nuvem e licenciamento,Outbound,Fernanda Lima,Qualificando,2026-08-24,4,Account-based
+215,Isaque Santos,IT Manager,Abreu,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Indicacao,Camila Rocha,Qualificando,2026-08-14,5,Lead a lead
+216,Leonardo Novaes,Coordenador de Suporte,Farias S/A,Geral,T-INFRA,Outsourcing e alocacao de especialistas,Inbound,Rafael Souza,Qualificado,2026-07-31,1,Lead a lead
+217,Yuri Jesus,Diretor de Tecnologia,Vargas da Rocha S/A,Geral,T-EXEC,Modernizacao e IA em producao,Indicacao,Bruno Alves,Qualificando,2026-08-05,5,Lead a lead
+218,Henry Gabriel Camargo,CFO,Fogaça,Geral,T-FIN,FinOps e contrato unico,Indicacao,Bruno Alves,Qualificado,2026-04-06,5,Account-based
+219,Bárbara Ramos,Gestor de Infraestrutura,Vargas da Rocha S/A,Geral,T-GESTAO,Otimizacao de nuvem e licenciamento,Inbound,Bruno Alves,Reuniao Agendada,2026-04-17,5,Lead a lead
+220,Theo Silva,Coordenador de Suporte,Araújo Moraes S/A,Financeiro,T-INFRA,Outsourcing e alocacao de especialistas,Outbound,Camila Rocha,Perdido,2026-09-08,5,Lead a lead
