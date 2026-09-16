@@ -1,0 +1,8 @@
+streamlit
+duckdb
+chromadb
+sentence-transformers
+python-dotenv
+anthropic
+pandas
+faker
