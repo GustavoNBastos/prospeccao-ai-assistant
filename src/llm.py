@@ -44,17 +44,18 @@ def _executar_tool(nome: str, entrada: dict) -> str:
     return f"Ferramenta desconhecida: {nome}"
 
 
-def responder_stream(pergunta: str, historico: list[dict] | None = None):
+def responder_stream(mensagens: list[dict]):
     """
-    Gera a resposta do assistente para uma pergunta, resolvendo automaticamente
-    qualquer chamada de ferramenta no caminho, e faz streaming (yield) do texto
-    final token a token para exibicao incremental no Streamlit.
+    Gera a resposta do assistente para a conversa em `mensagens`, resolvendo
+    automaticamente qualquer chamada de ferramenta no caminho, e faz streaming
+    (yield) do texto final token a token para exibicao incremental no Streamlit.
 
-    historico: lista de mensagens anteriores no formato da API da Anthropic
-    (role "user"/"assistant"), sem o system prompt.
+    `mensagens` deve ser uma lista no formato da API da Anthropic (role
+    "user"/"assistant") ja terminando com a pergunta mais recente do usuario.
+    A lista e MUTADA in place: os turnos intermediarios de tool use e a
+    resposta final do assistente sao acrescentados a ela, para que o
+    historico persista entre chamadas (ex.: via st.session_state).
     """
-    mensagens = list(historico or []) + [{"role": "user", "content": pergunta}]
-
     while True:
         with _client.messages.stream(
             model=MODEL,
@@ -67,11 +68,10 @@ def responder_stream(pergunta: str, historico: list[dict] | None = None):
                 yield texto
             resposta_final = stream.get_final_message()
 
-        if resposta_final.stop_reason != "tool_use":
-            mensagens.append({"role": "assistant", "content": resposta_final.content})
-            break
-
         mensagens.append({"role": "assistant", "content": resposta_final.content})
+
+        if resposta_final.stop_reason != "tool_use":
+            break
 
         resultados_tools = []
         for bloco in resposta_final.content:
@@ -86,13 +86,11 @@ def responder_stream(pergunta: str, historico: list[dict] | None = None):
                 )
         mensagens.append({"role": "user", "content": resultados_tools})
 
-    # devolve o historico atualizado via atributo, para o app.py persistir em session_state
-    responder_stream.ultimo_historico = mensagens
-
 
 if __name__ == "__main__":
     pergunta_teste = "Quantos leads existem por trilha?"
     print(f"Pergunta: {pergunta_teste}\n")
-    for pedaco in responder_stream(pergunta_teste):
+    mensagens_teste = [{"role": "user", "content": pergunta_teste}]
+    for pedaco in responder_stream(mensagens_teste):
         print(pedaco, end="", flush=True)
     print()
