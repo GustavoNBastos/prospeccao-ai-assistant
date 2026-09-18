@@ -57,10 +57,39 @@ prospeccao-ai-assistant/
     └── gerar_dados_sinteticos.py
 ```
 
-## Como Rodar Localmente
+##Como Rodar Localmente
 
-*(seção a ser preenchida conforme a aplicação for implementada)*
+Clone o repositório e entre na pasta do projeto.
 
-## Limitações Conhecidas
+Crie e ative um ambiente virtual:
+   python -m venv venv
+   .\venv\Scripts\Activate   # Windows (PowerShell)
+   source venv/bin/activate  # Linux/Mac
 
-*(seção a ser preenchida ao longo do desenvolvimento)*
+Instale as dependências:
+   pip install -r requirements.txt
+Copie .env.example para .env e preencha com sua chave de API da Anthropic:
+   ANTHROPIC_API_KEY=sua_chave_aqui
+Gere os dados sintéticos (ou use os já versionados em data/):
+   python scripts/gerar_dados_sinteticos.py
+(Opcional) Teste as camadas isoladamente:
+   python src/db.py
+   python src/rag.py
+   python src/llm.py
+Rode a aplicação:
+   streamlit run app.py
+
+Acesse http://localhost:8501 no navegador.
+
+##Limitações Conhecidas
+
+Os dados de leads e interações são sintéticos, gerados por script (scripts/gerar_dados_sinteticos.py), inspirados na lógica real de segmentação por trilha, mas sem corresponder a leads reais.
+
+O RAG usa a função de embedding padrão do ChromaDB (modelo local all-MiniLM-L6-v2), sem ajuste fino para o domínio específico de prospecção B2B.
+
+Não há ainda modelo preditivo de conversão de lead (previsto para a Etapa 2).
+
+Não há agentes autônomos orquestrados nem observabilidade (Langfuse) ou testes automatizados (DeepEval), também previstos para a Etapa 2.
+
+Não há camada de segurança/guardrails contra prompt injection ou vazamento de dado sensível (previsto para a Etapa 3).
+O histórico da conversa existe apenas durante a sessão do Streamlit (session_state), sem persistência entre execuções.
