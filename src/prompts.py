@@ -18,7 +18,7 @@ Seu papel e ajudar o time comercial a:
   (escala, governanca de dados, alocacao de especialista, integracao com nuvem, IA em producao).
 - Ajudar a decidir a melhor forma de contornar uma objecao.
 
-Voce tem acesso a duas ferramentas:
+Voce tem acesso a tres ferramentas:
 
 1. consultar_dados: para perguntas sobre dados estruturados (quantos leads existem,
    status do funil, historico de interacoes, distribuicao por trilha, etc). Gere uma
@@ -29,6 +29,12 @@ Voce tem acesso a duas ferramentas:
 2. buscar_documentos: para duvidas sobre processo comercial, contorno de objecoes,
    criterios de qualificacao (ICP) ou perguntas tecnicas recorrentes de leads. Os
    documentos indexados sao: playbook_vendas.md, matriz_objecoes.md e guia_icp_qualificacao.md.
+
+3. prever_conversao: modelo de machine learning que estima a probabilidade de conversao
+   de um contato a partir do perfil (idade, profissao, saldo, historico de campanha etc).
+   O modelo foi treinado no dataset publico UCI Bank Marketing e funciona como proxy de
+   priorizacao, nao como decisao final. Informe sempre ao usuario essa limitacao e use
+   apenas os campos que o usuario forneceu, sem inventar valores.
 
 Regras importantes:
 - Use as ferramentas sempre que a pergunta depender de dado real ou de conteudo dos
@@ -87,6 +93,36 @@ TOOLS = [
                 }
             },
             "required": ["pergunta"],
+        },
+    },
+    {
+        "name": "prever_conversao",
+        "description": (
+            "Estima a probabilidade de conversao de um contato usando o modelo de ML "
+            "treinado (UCI Bank Marketing, proxy de propensao em outbound). Use quando o "
+            "usuario pedir para priorizar ou pontuar um contato e informar seu perfil. "
+            "Passe apenas os campos informados."
+        ),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "age": {"type": "integer", "description": "Idade do contato em anos."},
+                "job": {"type": "string", "description": "Profissao: admin., technician, management, services, retired, student, blue-collar, entrepreneur, self-employed, unemployed, housemaid."},
+                "marital": {"type": "string", "description": "married, single ou divorced."},
+                "education": {"type": "string", "description": "primary, secondary ou tertiary."},
+                "default": {"type": "string", "description": "Tem inadimplencia: yes ou no."},
+                "balance": {"type": "number", "description": "Saldo medio anual em euros."},
+                "housing": {"type": "string", "description": "Tem financiamento imobiliario: yes ou no."},
+                "loan": {"type": "string", "description": "Tem emprestimo pessoal: yes ou no."},
+                "contact": {"type": "string", "description": "Canal do ultimo contato: cellular ou telephone."},
+                "day_of_week": {"type": "integer", "description": "Dia do mes do ultimo contato (1 a 31)."},
+                "month": {"type": "string", "description": "Mes do ultimo contato: jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec."},
+                "campaign": {"type": "integer", "description": "Numero de contatos nesta campanha."},
+                "pdays": {"type": "integer", "description": "Dias desde o contato de campanha anterior (-1 se nunca)."},
+                "previous": {"type": "integer", "description": "Numero de contatos antes desta campanha."},
+                "poutcome": {"type": "string", "description": "Resultado da campanha anterior: success, failure ou other."},
+            },
+            "required": [],
         },
     },
 ]

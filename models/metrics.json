@@ -1,0 +1,24 @@
+{
+  "dataset": "UCI Bank Marketing (id 222)",
+  "n_treino": 36168,
+  "n_teste": 9043,
+  "taxa_positivos": 0.117,
+  "melhor_modelo": "lgbm",
+  "threshold": 0.1646,
+  "accuracy": 0.8589,
+  "precision": 0.4247,
+  "recall": 0.5813,
+  "f1": 0.4908,
+  "roc_auc": 0.8038,
+  "baseline_accuracy_classe_majoritaria": 0.883,
+  "matriz_confusao": [
+    [
+      7152,
+      833
+    ],
+    [
+      443,
+      615
+    ]
+  ]
+}

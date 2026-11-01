@@ -7,13 +7,17 @@ Cliente de chamada a LLM (Anthropic Claude), com:
 
 import json
 import os
+import sys
 
 import anthropic
 from dotenv import load_dotenv
 
-import db
-import rag
-from prompts import SYSTEM_PROMPT, TOOLS
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+
+import db  # noqa: E402
+import rag  # noqa: E402
+from ml.predictor import prever_conversao  # noqa: E402
+from prompts import SYSTEM_PROMPT, TOOLS  # noqa: E402
 
 load_dotenv()
 
@@ -40,6 +44,12 @@ def _executar_tool(nome: str, entrada: dict) -> str:
         return "\n\n---\n\n".join(
             f"[Fonte: {c['fonte']} | {c['titulo_secao']}]\n{c['texto']}" for c in chunks
         )
+
+    if nome == "prever_conversao":
+        try:
+            return json.dumps(prever_conversao(**entrada), ensure_ascii=False)
+        except Exception as erro:
+            return f"Erro ao prever conversao: {erro}"
 
     return f"Ferramenta desconhecida: {nome}"
 

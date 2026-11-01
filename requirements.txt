@@ -6,3 +6,7 @@ python-dotenv
 anthropic
 pandas
 faker
+flaml[automl]
+scikit-learn
+joblib
+ucimlrepo
