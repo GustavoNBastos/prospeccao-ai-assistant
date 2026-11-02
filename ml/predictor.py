@@ -74,10 +74,13 @@ def prever_conversao(**campos) -> dict:
     proba = float(pacote["modelo"].predict_proba(X)[0, 1])
     thr = float(pacote["threshold"])
     informados = [c for c in campos if c in colunas]
+    # com poucos campos o modelo quase nao separa perfis (probabilidades ficam perto da media)
+    confianca = "baixa" if len(informados) < 5 else "moderada"
     return {
         "probabilidade_conversao": round(proba, 4),
         "threshold_de_decisao": round(thr, 4),
         "classe": "priorizar" if proba >= thr else "baixa prioridade",
+        "confianca": confianca,
         "campos_informados": informados,
         "campos_ignorados": desconhecidos,
         "aviso": ("Modelo treinado no UCI Bank Marketing (proxy de propensão em "

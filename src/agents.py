@@ -28,6 +28,8 @@ sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 from crewai import LLM, Agent, Crew, Process, Task  # noqa: E402
 from crewai.tools import tool  # noqa: E402
 
+from observability import observacao, uso_e_custo  # noqa: E402
+
 load_dotenv()
 
 MODEL = "anthropic/claude-sonnet-5"
@@ -163,8 +165,17 @@ def montar_crew(pergunta: str) -> Crew:
 
 def executar_crew(pergunta: str) -> str:
     """Roda os dois agentes e devolve o texto final para o chat."""
-    resultado = montar_crew(pergunta).kickoff()
-    return getattr(resultado, "raw", str(resultado))
+    with observacao("crew-prospeccao", "agent", input=pergunta) as agente:
+        resultado = montar_crew(pergunta).kickoff()
+        texto = getattr(resultado, "raw", str(resultado))
+        uso = getattr(resultado, "token_usage", None)
+        entrada = getattr(uso, "prompt_tokens", 0) or 0
+        saida = getattr(uso, "completion_tokens", 0) or 0
+        agente.update(output=texto, metadata={"agentes": ["Analista de Leads", "Estrategista Comercial"]})
+        # uso total de tokens dos dois agentes, registrado como geracao (tokens e custo)
+        with observacao("crew-llm-total", "generation", model=MODEL, input=pergunta) as geracao:
+            geracao.update(output=texto[:2000], **uso_e_custo(entrada, saida))
+        return texto
 
 
 if __name__ == "__main__":

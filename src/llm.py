@@ -17,17 +17,18 @@ sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 import db  # noqa: E402
 import rag  # noqa: E402
 from ml.predictor import prever_conversao  # noqa: E402
+from observability import observacao, uso_e_custo  # noqa: E402
 from prompts import SYSTEM_PROMPT, TOOLS  # noqa: E402
 
 load_dotenv()
 
 MODEL = "claude-sonnet-5"
-MAX_TOKENS = 1024
+MAX_TOKENS = 2048
 
 _client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
 
 
-def _executar_tool(nome: str, entrada: dict) -> str:
+def _executar_tool_impl(nome: str, entrada: dict) -> str:
     """Executa a ferramenta pedida pelo modelo e retorna o resultado como texto."""
     if nome == "consultar_dados":
         try:
@@ -54,6 +55,21 @@ def _executar_tool(nome: str, entrada: dict) -> str:
     return f"Ferramenta desconhecida: {nome}"
 
 
+def _executar_tool(nome: str, entrada: dict) -> str:
+    """Executa a ferramenta registrando um span no Langfuse (entrada, saida, latencia)."""
+    with observacao(f"tool:{nome}", "tool", input=entrada) as span:
+        resultado = _executar_tool_impl(nome, entrada)
+        span.update(output=resultado[:2000])
+        return resultado
+
+
+def _ultimo_texto_usuario(mensagens: list[dict]) -> str:
+    for m in reversed(mensagens):
+        if m["role"] == "user" and isinstance(m["content"], str):
+            return m["content"]
+    return ""
+
+
 def responder_stream(mensagens: list[dict]):
     """
     Gera a resposta do assistente para a conversa em `mensagens`, resolvendo
@@ -67,16 +83,24 @@ def responder_stream(mensagens: list[dict]):
     historico persista entre chamadas (ex.: via st.session_state).
     """
     while True:
-        with _client.messages.stream(
-            model=MODEL,
-            max_tokens=MAX_TOKENS,
-            system=SYSTEM_PROMPT,
-            tools=TOOLS,
-            messages=mensagens,
-        ) as stream:
-            for texto in stream.text_stream:
-                yield texto
-            resposta_final = stream.get_final_message()
+        with observacao(
+            "claude-chamada", "generation", model=MODEL,
+            input=_ultimo_texto_usuario(mensagens),
+        ) as geracao:
+            with _client.messages.stream(
+                model=MODEL,
+                max_tokens=MAX_TOKENS,
+                system=SYSTEM_PROMPT,
+                tools=TOOLS,
+                messages=mensagens,
+            ) as stream:
+                for texto in stream.text_stream:
+                    yield texto
+                resposta_final = stream.get_final_message()
+            geracao.update(
+                output="".join(b.text for b in resposta_final.content if b.type == "text"),
+                **uso_e_custo(resposta_final.usage.input_tokens, resposta_final.usage.output_tokens),
+            )
 
         mensagens.append({"role": "assistant", "content": resposta_final.content})
 
