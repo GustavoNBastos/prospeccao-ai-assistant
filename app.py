@@ -19,8 +19,10 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
 
 from agents import executar_crew  # noqa: E402
 from llm import responder_stream  # noqa: E402
-from observability import trace  # noqa: E402
+from observability import ativo, trace  # noqa: E402
 from router import classificar  # noqa: E402
+
+print(f"[app] carregado de {os.path.abspath(__file__)} | langfuse ativo: {ativo()}", flush=True)
 
 st.set_page_config(
     page_title="Assistente de Prospecção B2B",

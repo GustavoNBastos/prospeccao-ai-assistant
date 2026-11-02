@@ -19,10 +19,10 @@ from typing import Optional
 
 from dotenv import load_dotenv
 
-# evita o prompt "Share trace with CrewAI?" (espera 20 s) e a telemetria
+# evita o prompt "Share trace with CrewAI?" (espera 20 s) e a telemetria do CrewAI.
+# Nao definir OTEL_SDK_DISABLED aqui: isso desliga tambem o Langfuse.
 os.environ.setdefault("CREWAI_TRACING_ENABLED", "false")
 os.environ.setdefault("CREWAI_DISABLE_TELEMETRY", "true")
-os.environ.setdefault("OTEL_SDK_DISABLED", "true")
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
 from crewai import LLM, Agent, Crew, Process, Task  # noqa: E402
@@ -173,10 +173,17 @@ def executar_crew(pergunta: str) -> str:
         uso = getattr(resultado, "token_usage", None)
         entrada = getattr(uso, "prompt_tokens", 0) or 0
         saida = getattr(uso, "completion_tokens", 0) or 0
-        agente.update(output=texto, metadata={"agentes": ["Analista de Leads", "Estrategista Comercial"]})
-        # uso total de tokens dos dois agentes, registrado como geracao (tokens e custo)
-        with observacao("crew-llm-total", "generation", model=MODEL, input=pergunta) as geracao:
-            geracao.update(output=texto[:2000], **uso_e_custo(entrada, saida))
+        # tokens e custo de cada chamada ao Claude ja sao registrados pela instrumentacao
+        # automatica ("anthropic.messages.create"); o total do crew vai so como metadado,
+        # para nao contar duas vezes no custo do trace.
+        agente.update(
+            output=texto,
+            metadata={
+                "agentes": ["Analista de Leads", "Estrategista Comercial"],
+                "tokens_entrada_total": entrada,
+                "tokens_saida_total": saida,
+            },
+        )
         return texto
 
 

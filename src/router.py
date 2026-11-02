@@ -51,7 +51,9 @@ Exemplos:
 def classificar(pergunta: str) -> str:
     """Retorna 'composta' ou 'simples'."""
     try:
-        with observacao("router", "generation", model=MODEL, input=pergunta) as geracao:
+        # span comum: tokens e custo ja sao registrados pela chamada automatica
+        # "anthropic.messages.create" (filha), entao nao repetimos aqui (evita contagem dupla)
+        with observacao("router", "span", input=pergunta) as geracao:
             resposta = _client.messages.create(
                 model=MODEL,
                 max_tokens=200,  # folga: modelos com raciocinio podem gastar tokens antes do texto
@@ -62,7 +64,8 @@ def classificar(pergunta: str) -> str:
             rota = "composta" if texto.rfind("COMPOSTA") > texto.rfind("SIMPLES") else "simples"
             geracao.update(
                 output=rota,
-                **uso_e_custo(resposta.usage.input_tokens, resposta.usage.output_tokens),
+                metadata={"tokens_entrada": resposta.usage.input_tokens,
+                          "tokens_saida": resposta.usage.output_tokens},
             )
         print(f"[router] rota={rota} | resposta_bruta={texto!r} | pergunta={pergunta[:60]!r}")
         return rota
