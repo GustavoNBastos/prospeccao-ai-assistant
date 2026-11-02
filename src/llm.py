@@ -83,8 +83,10 @@ def responder_stream(mensagens: list[dict]):
     historico persista entre chamadas (ex.: via st.session_state).
     """
     while True:
+        # span comum: tokens e custo ja sao registrados pela chamada automatica
+        # "anthropic.messages.create" (filha); gravar aqui contaria duas vezes
         with observacao(
-            "claude-chamada", "generation", model=MODEL,
+            "claude-chamada", "span",
             input=_ultimo_texto_usuario(mensagens),
         ) as geracao:
             with _client.messages.stream(
@@ -99,7 +101,8 @@ def responder_stream(mensagens: list[dict]):
                 resposta_final = stream.get_final_message()
             geracao.update(
                 output="".join(b.text for b in resposta_final.content if b.type == "text"),
-                **uso_e_custo(resposta_final.usage.input_tokens, resposta_final.usage.output_tokens),
+                metadata={"tokens_entrada": resposta_final.usage.input_tokens,
+                          "tokens_saida": resposta_final.usage.output_tokens},
             )
 
         mensagens.append({"role": "assistant", "content": resposta_final.content})
