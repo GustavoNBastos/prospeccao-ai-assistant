@@ -1,0 +1,38 @@
+[
+  {
+    "id": "H01",
+    "categoria": "facil",
+    "conjunto": "holdout",
+    "pergunta": "Como responder quando o lead diz que nao e prioridade este ano?",
+    "rota_esperada": "simples",
+    "rota_obtida": "simples",
+    "rota_ok": true,
+    "ferramentas_esperadas": [
+      "buscar_documentos"
+    ],
+    "ferramentas_usadas": [
+      "buscar_documentos"
+    ],
+    "ferramentas_ok": true,
+    "segundos": 7.1,
+    "resposta": "Quando o lead disser que \"não é prioridade este ano\", a resposta recomendada é: pergunte quando o planejamento do próximo ciclo se abre e já agende a retomada nessa janela — sem insistir com nova cadência até lá.\n\nO racional: forçar contra o timing real do cliente só desgasta a relação; é melhor preservar o relacionamento e guardar o lead para o momento certo.\n\nQuer que eu veja como registrar esse follow-up futuro no funil?",
+    "metricas": {
+      "faithfulness": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context. All claims made in the actual output are fully supported by the provided information, demonstrating excellent faithfulness."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because the output contains no irrelevant statements and fully addresses the input question about how to respond when a lead says it's not a priority this year."
+      },
+      "correcao": {
+        "score": 0.9,
+        "ok": true,
+        "motivo": "A resposta real contem todos os elementos essenciais da resposta esperada: perguntar quando o planejamento do proximo ciclo se abre, agendar a retomada nessa janela, nao insistir com nova cadencia ate la, e o racional de que forcar contra o timing desgasta a relacao e e melhor preservar o relacionamento para o momento certo. Nao ha numeros especificos a verificar. A pergunta final sobre registrar o follow-up no funil e um detalhe extra que nao contradiz a resposta esperada."
+      }
+    },
+    "aprovado": true
+  }
+]

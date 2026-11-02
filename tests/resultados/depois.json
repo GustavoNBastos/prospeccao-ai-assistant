@@ -1,0 +1,446 @@
+[
+  {
+    "id": "F01",
+    "categoria": "facil",
+    "conjunto": "principal",
+    "pergunta": "Quantos leads existem no total?",
+    "rota_esperada": "simples",
+    "rota_obtida": "simples",
+    "rota_ok": true,
+    "ferramentas_esperadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_usadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_ok": true,
+    "segundos": 4.9,
+    "resposta": "Temos 220 leads no total na base. Quer que eu detalhe por trilha, status ou outro corte?",
+    "metricas": {
+      "faithfulness": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context. All statements made in the actual output are fully supported by the retrieval context."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because the output contains no irrelevant statements and fully addresses the input question about the total number of leads."
+      },
+      "correcao": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "O numero essencial (220 leads) presente na Resposta Esperada aparece corretamente na Resposta Real, sem contradicoes. A pergunta adicional sobre detalhamento e um extra aceitavel que nao substitui nem contradiz a informacao principal."
+      }
+    },
+    "aprovado": true
+  },
+  {
+    "id": "F02",
+    "categoria": "facil",
+    "conjunto": "principal",
+    "pergunta": "Quantos leads existem por trilha?",
+    "rota_esperada": "simples",
+    "rota_obtida": "simples",
+    "rota_ok": true,
+    "ferramentas_esperadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_usadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_ok": true,
+    "segundos": 5.1,
+    "resposta": "Distribuição de leads por trilha:\n\n- T-GESTAO: 77\n- T-INFRA: 74\n- T-DADOS: 22\n- T-EXEC: 18\n- T-PROD: 15\n- T-FIN: 14\n\nQuer que eu detalhe por status do funil ou por SDR?",
+    "metricas": {
+      "faithfulness": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, meaning every claim made in the output is fully supported by the provided information."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because the output directly addresses the input question with no irrelevant statements present, keeping the response fully focused and on-topic."
+      },
+      "correcao": {
+        "score": 0.8,
+        "ok": true,
+        "motivo": "Todos os numeros e nomes das trilhas (T-GESTAO 77, T-INFRA 74, T-DADOS 22, T-EXEC 18, T-PROD 15, T-FIN 14) coincidem exatamente entre a Resposta Real e a Esperada. A unica ausencia e o total de 220 leads, que nao foi mencionado explicitamente na Resposta Real, mas pode ser facilmente calculado pela soma dos valores apresentados, sendo uma informacao redundante e nao essencial isolada. A pergunta extra sobre detalhar por status ou SDR e um detalhe adicional que nao contradiz nada."
+      }
+    },
+    "aprovado": true
+  },
+  {
+    "id": "F03",
+    "categoria": "facil",
+    "conjunto": "principal",
+    "pergunta": "Quais leads estao com status Reuniao Agendada?",
+    "rota_esperada": "simples",
+    "rota_obtida": "simples",
+    "rota_ok": true,
+    "ferramentas_esperadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_usadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_ok": true,
+    "segundos": 9.3,
+    "resposta": "Encontrei 23 leads com status \"Reuniao Agendada\". Principais:\n\n- 1 – Vitória Albuquerque (Analista de Dados, Casa Grande, T-DADOS)\n- 7 – João Montenegro (CISO, Castro, T-EXEC)\n- 27 – Raul Ferreira (Gerente de TI, Aragão - EI, T-GESTAO)\n- 43 – Ana Lívia Rios (Coord. Infraestrutura, Albuquerque - ME, T-INFRA)\n- 49 – Maria Helena Rocha (Coord. Infraestrutura, Garcia S/A, T-INFRA)\n- 55 – Thomas Melo (IT Manager, Pereira e Filhos, T-GESTAO)\n- 58 – Leonardo Câmara (Coord. Suporte, Azevedo, T-INFRA)\n- 80 – Anna Liz Carvalho (Coord. Infraestrutura, Porto, T-INFRA)\n- 95 – Ravi Lucca Cardoso (Head de Dados, Correia Correia - EI, T-DADOS)\n- 124 – Pedro Fonseca (Coord. Suporte, Casa Grande, T-INFRA)\n- 138 – Isaque Silveira (Coord. TI, Fogaça, T-INFRA)\n- 144 – Leandro Ribeiro (Coord. Infraestrutura, Montenegro, T-INFRA)\n- 165 – Rebeca Barbosa (Coord. Suporte, Silva das Neves - ME, T-INFRA)\n- 168 – Dante Novais (Coord. Suporte, Brito Garcia Ltda., T-INFRA)\n- 172 – Lorena Nunes (Gestor Infra, da Rocha Cunha S/A, T-GESTAO)\n- 180 – Igor da Paz (Coord. TI, Abreu, T-INFRA)\n- 182 – Isabel da Luz (Diretor de Tecnologia, Porto, T-EXEC)\n- 184 – Yago Câmara (CFO, Caldeira, T-FIN)\n- 191 – Ágatha Monteiro (Coord. TI, Câmara Azevedo Ltda., T-INFRA)\n- 196 – Juliana Oliveira (Coord. Analytics, Vieira Rodrigues - ME, T-DADOS)\n- 209 – Ana Júlia Correia (Head de Dados, Rodrigues - EI, T-DADOS)\n- 211 – Melina Teixeira (Gestor Infra, Cassiano, T-GESTAO)\n- 219 – Bárbara Ramos (Gestor Infra, Vargas da Rocha S/A, T-GESTAO)\n\nQuer que eu detalhe algum desses leads?",
+    "metricas": {
+      "faithfulness": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, meaning every claim made is fully supported. Great job maintaining perfect faithfulness!"
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because the output contains no irrelevant statements, with every part of the response directly addressing the input's request about leads with 'Reuniao Agendada' status. Great job staying fully on topic!"
+      },
+      "correcao": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "A Resposta Real confirma corretamente o numero essencial (23 leads com status Reuniao Agendada) e apresenta uma listagem detalhada incluindo lead_id, nome do contato, cargo, empresa e trilha, exatamente como pedido na Resposta Esperada. Nao ha contradicoes de numeros ou nomes. Os detalhes extras (cargo, empresa, trilha para cada lead) sao informacoes corretas e adicionais que nao penalizam, alinhando-se plenamente ao criterio 4 das instrucoes."
+      }
+    },
+    "aprovado": true
+  },
+  {
+    "id": "F04",
+    "categoria": "facil",
+    "conjunto": "principal",
+    "pergunta": "Quantos leads sao do setor Financeiro?",
+    "rota_esperada": "simples",
+    "rota_obtida": "simples",
+    "rota_ok": true,
+    "ferramentas_esperadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_usadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_ok": true,
+    "segundos": 3.6,
+    "resposta": "São 56 leads do setor Financeiro. Quer o detalhamento por trilha ou status do funil?",
+    "metricas": {
+      "faithfulness": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context. All claims made in the actual output are fully supported by the provided information."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because the output contains no irrelevant statements and fully addresses the input question about the number of leads from the Financeiro sector."
+      },
+      "correcao": {
+        "score": 0.8,
+        "ok": true,
+        "motivo": "O numero essencial (56 leads do setor Financeiro) esta presente e correto na Resposta Real, sem contradicoes. Falta apenas o detalhe extra sobre os 164 leads do setor Geral, que e informacao complementar e nao essencial para responder a pergunta especifica sobre o setor Financeiro. A resposta real ainda adiciona uma oferta util de detalhamento, o que nao prejudica a avaliacao."
+      }
+    },
+    "aprovado": true
+  },
+  {
+    "id": "F05",
+    "categoria": "facil",
+    "conjunto": "principal",
+    "pergunta": "O que devo responder quando o lead diz que ja tem um parceiro atendendo esse escopo?",
+    "rota_esperada": "simples",
+    "rota_obtida": "simples",
+    "rota_ok": true,
+    "ferramentas_esperadas": [
+      "buscar_documentos"
+    ],
+    "ferramentas_usadas": [
+      "buscar_documentos",
+      "buscar_documentos"
+    ],
+    "ferramentas_ok": true,
+    "segundos": 8.2,
+    "resposta": "Não insista em substituir o parceiro atual — direcione a conversa para uma camada complementar que ele provavelmente não cobre, como governança de dados, otimização de custo de processamento ou alocação pontual de especialista para picos de demanda.\n\nO racional: dificilmente um único fornecedor cobre 100% do escopo de dados, nuvem e IA. O objetivo não é criar disputa, é achar a lacuna que você pode preencher.\n\nQuer que eu puxe o histórico de algum lead específico que trouxe essa objeção pra ajustar a abordagem?",
+    "metricas": {
+      "faithfulness": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, meaning every claim made is fully supported by the provided information."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because the output contains no irrelevant statements and fully addresses the input question about how to respond when a lead says they already have a partner handling that scope."
+      },
+      "correcao": {
+        "score": 0.9,
+        "ok": true,
+        "motivo": "Todos os elementos essenciais da Resposta Esperada estao presentes na Resposta Real: nao insistir em substituir o parceiro atual, direcionar para camada complementar (governanca, custo de processamento, alocacao pontual de especialista para picos de demanda) e o racional de que nenhum fornecedor cobre 100% do escopo, buscando a lacuna sem criar disputa. Nao ha numeros envolvidos neste caso, entao o risco de divergencia numerica nao se aplica. A pergunta extra final sobre puxar historico de lead e um detalhe adicional que nao contradiz nada da resposta esperada, logo nao deve ser penalizado."
+      }
+    },
+    "aprovado": true
+  },
+  {
+    "id": "F06",
+    "categoria": "facil",
+    "conjunto": "principal",
+    "pergunta": "Quais sao os criterios para desqualificar um lead?",
+    "rota_esperada": "simples",
+    "rota_obtida": "simples",
+    "rota_ok": true,
+    "ferramentas_esperadas": [
+      "buscar_documentos"
+    ],
+    "ferramentas_usadas": [
+      "buscar_documentos"
+    ],
+    "ferramentas_ok": true,
+    "segundos": 4.7,
+    "resposta": "Um lead é desqualificado quando:\n\n- **Cargo sem relação** com tecnologia, dados, produto ou decisão financeira (ex.: cargos acadêmicos, palestrantes, conselheiros sem vínculo executivo direto).\n- **Empresa em estágio muito inicial**, sem time técnico interno mínimo para sustentar projeto de dados ou IA.\n- **Conta já em negociação** com outro representante comercial da empresa (evita canibalização interna).\n\nQuer que eu veja algum lead específico sob esses critérios?",
+    "metricas": {
+      "faithfulness": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context. All claims made in the output are fully supported by the provided information, demonstrating excellent faithfulness."
+      },
+      "answer_relevancy": {
+        "score": 0.8571428571428571,
+        "ok": true,
+        "motivo": "The score is 0.86 because the output mostly addresses the disqualification criteria asked in the input, but it includes a follow-up question that is not directly related to the criteria themselves, slightly reducing its overall relevancy."
+      },
+      "correcao": {
+        "score": 0.9,
+        "ok": true,
+        "motivo": "A resposta real cobre todos os tres criterios essenciais da resposta esperada: cargo sem relacao com tecnologia/dados/produto/decisao financeira, empresa em estagio inicial sem time tecnico minimo, e conta ja em negociacao com outro representante. Nao ha numeros a verificar. Os detalhes extras (exemplos de cargos, motivo da canibalizacao, pergunta final) sao coerentes e nao contradizem os elementos essenciais. A formulacao difere mas o conteudo semantico e equivalente."
+      }
+    },
+    "aprovado": true
+  },
+  {
+    "id": "D01",
+    "categoria": "dificil",
+    "conjunto": "principal",
+    "pergunta": "Qual SDR tem mais leads com status Reuniao Agendada?",
+    "rota_esperada": "simples",
+    "rota_obtida": "simples",
+    "rota_ok": true,
+    "ferramentas_esperadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_usadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_ok": true,
+    "segundos": 4.0,
+    "resposta": "Bruno Alves e Fernanda Lima empatam na liderança, com 6 leads cada um em \"Reunião Agendada\".",
+    "metricas": {
+      "faithfulness": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context. All claims made in the output are fully supported by the provided information."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because the output contains no irrelevant statements and fully addresses the input's question about which SDR has the most leads with 'Reuniao Agendada' status."
+      },
+      "correcao": {
+        "score": 0.9,
+        "ok": true,
+        "motivo": "A resposta real identifica corretamente o empate entre Bruno Alves e Fernanda Lima com 6 leads cada em 'Reunião Agendada', que são os elementos essenciais centrais da pergunta. Os detalhes extras na Resposta Esperada (Juliana Prado com 5, Camila Rocha e Rafael Souza com 3) são informações adicionais não essenciais para responder diretamente à pergunta sobre quem tem mais leads, e sua ausência não contradiz nem invalida a resposta principal."
+      }
+    },
+    "aprovado": true
+  },
+  {
+    "id": "D02",
+    "categoria": "dificil",
+    "conjunto": "principal",
+    "pergunta": "Qual a objecao mais registrada nas interacoes e quantas vezes ela aparece?",
+    "rota_esperada": "simples",
+    "rota_obtida": "simples",
+    "rota_ok": true,
+    "ferramentas_esperadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_usadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_ok": true,
+    "segundos": 4.9,
+    "resposta": "A objeção mais registrada é \"Não sou eu quem decide\", com 28 ocorrências.\n\nQuer que eu veja no playbook como contornar essa objeção?",
+    "metricas": {
+      "faithfulness": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context. Every claim made in the output is fully supported by the provided information, demonstrating excellent faithfulness."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because the output directly and fully addresses the input question with no irrelevant statements present."
+      },
+      "correcao": {
+        "score": 0.8,
+        "ok": true,
+        "motivo": "A Resposta Real contem corretamente o elemento essencial principal: a objecao 'Nao sou eu quem decide' com 28 ocorrencias, igual a Resposta Esperada. Porem, omite a informacao secundaria sobre 'Ja temos parceiro' com 26 ocorrencias, que embora nao seja o foco principal da pergunta, estava presente na Resposta Esperada como contexto adicional. Como essa omissao nao contradiz a resposta e os elementos essenciais (nome da objecao e numero) estao corretos, a penalizacao deve ser leve."
+      }
+    },
+    "aprovado": true
+  },
+  {
+    "id": "D03",
+    "categoria": "dificil",
+    "conjunto": "principal",
+    "pergunta": "Em qual canal houve mais reunioes marcadas?",
+    "rota_esperada": "simples",
+    "rota_obtida": "simples",
+    "rota_ok": true,
+    "ferramentas_esperadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_usadas": [
+      "consultar_dados"
+    ],
+    "ferramentas_ok": true,
+    "segundos": 3.7,
+    "resposta": "WhatsApp foi o canal com mais reuniões marcadas, com 33 (contra 27 de Email e 20 de LinkedIn).",
+    "metricas": {
+      "faithfulness": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, meaning all claims made are fully supported by the provided information."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because the output contains no irrelevant statements and directly addresses the input question without any deviation."
+      },
+      "correcao": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "A Resposta Real contém todos os elementos essenciais da Resposta Esperada: identifica WhatsApp como canal com mais reunioes, e os numeros exatos (33, 27, 20) correspondem corretamente aos canais (WhatsApp, Email, LinkedIn) sem nenhuma contradicao ou erro numerico."
+      }
+    },
+    "aprovado": true
+  },
+  {
+    "id": "D04",
+    "categoria": "dificil",
+    "conjunto": "principal",
+    "pergunta": "Um contato de 45 anos, gerente (management), saldo de 2000 euros, contatado por celular em marco, sem financiamento imobiliario nem emprestimo pessoal, primeira abordagem da campanha e com campanha anterior de sucesso. Qual a chance de conversao?",
+    "rota_esperada": "simples",
+    "rota_obtida": "simples",
+    "rota_ok": true,
+    "ferramentas_esperadas": [
+      "prever_conversao"
+    ],
+    "ferramentas_usadas": [
+      "prever_conversao"
+    ],
+    "ferramentas_ok": true,
+    "segundos": 15.6,
+    "resposta": "O modelo estimou **77,1%** de probabilidade de conversão, classificando o contato como **priorizar** (confiança moderada, com 9 campos informados).\n\nVale lembrar: é um modelo proxy treinado no dataset UCI Bank Marketing, serve de apoio à priorização, não é decisão final — a qualificação via critérios de ICP continua valendo.",
+    "metricas": {
+      "faithfulness": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, meaning every claim made is fully supported by the provided information. Great job maintaining perfect faithfulness!"
+      },
+      "answer_relevancy": {
+        "score": 0.8888888888888888,
+        "ok": true,
+        "motivo": "The score is 0.89 because the output mostly stays focused on addressing the conversion chance for the given contact profile, but it includes an irrelevant statement about the number of filled fields, which does not contribute to answering the actual question asked."
+      },
+      "correcao": {
+        "score": 0.7,
+        "ok": true,
+        "motivo": "A resposta real acerta a probabilidade (77,1% vs 77% esperado) e a classe 'priorizar', alem de mencionar corretamente o modelo proxy treinado no UCI Bank Marketing como apoio a priorizacao. Porem, omite o threshold de decisao de 16,5%, que e um numero essencial presente na Resposta Esperada e relevante para justificar a classificacao. Essa ausencia é uma falha notavel, mas o restante do conteudo essencial esta coerente e sem contradicoes."
+      }
+    },
+    "aprovado": true
+  },
+  {
+    "id": "D05",
+    "categoria": "dificil",
+    "conjunto": "principal",
+    "pergunta": "Quantos leads T-INFRA ja registraram a objecao 'ja temos parceiro' e como contornar essa objecao?",
+    "rota_esperada": "composta",
+    "rota_obtida": "composta",
+    "rota_ok": true,
+    "ferramentas_esperadas": [
+      "consultar_dados",
+      "buscar_documentos"
+    ],
+    "ferramentas_usadas": [
+      "consultar_dados",
+      "consultar_dados",
+      "consultar_dados",
+      "consultar_dados",
+      "buscar_documentos",
+      "buscar_documentos"
+    ],
+    "ferramentas_ok": true,
+    "segundos": 29.0,
+    "resposta": "## Resposta\n\n**1) O que os dados mostram**\n\nNa trilha **T-INFRA**, **8 leads** já registraram a objeção \"Já temos parceiro\" (contagem distinta de lead_id via JOIN entre `leads` e `interacoes_cadencia`). O resumo textual é idêntico nas 8 ocorrências: *\"Disse que já tem um parceiro atendendo esse escopo.\"*\n\n**2) Recomendação prática**\n\nPara essa objeção, o playbook orienta **não disputar** o fornecedor já instalado nem insistir em substituição. A abordagem recomendada é:\n\n- Reconhecer o parceiro atual e **não entrar em confronto direto**.\n- Redirecionar a conversa para uma **camada complementar** que o parceiro provavelmente não cobre — ex.: governança de dados, otimização de custo de processamento em nuvem, ou alocação pontual de especialista para picos de demanda.\n- Racional: dificilmente um único fornecedor cobre 100% do escopo de dados, nuvem e IA; o objetivo é identificar a lacuna, não criar disputa.\n\nAntes de insistir nesses 8 leads, vale checar o critério de desqualificação: se a objeção indicar uma **negociação em andamento sem espaço de complementaridade identificado**, o lead deve ser desqualificado ou movido para revisão manual — e não passa para o AE enquanto essa lacuna não for mapeada (é um dos critérios de bloqueio na passagem para Account Executive).\n\nEntão a próxima ação prática para esses 8 leads é: reabordar com pergunta de qualificação específica sobre a lacuna do parceiro atual (governança, custo de nuvem, picos de demanda) antes de qualquer tentativa de agendamento ou passagem para AE.\n\n**3) Fontes dos documentos usados**\n\n- `matriz_objecoes.md` — seção \"1. Objeções de Relacionamento com Concorrente\" (resposta recomendada para \"Já temos um parceiro atendendo esse escopo\").\n- `guia_icp_qualificacao.md` — seção \"3. Critérios de Desqualificação\" (negociação em andamento sem complementaridade).\n- `playbook_vendas.md` — seção \"6. Critérios de Passagem para Account Executive (AE)\" (bloqueio de passagem quando há \"já tem parceiro\" sem espaço de complementaridade identificado).",
+    "metricas": {
+      "faithfulness": {
+        "score": 0.8461538461538461,
+        "ok": true,
+        "motivo": "The score is 0.85 because the actual output misidentifies the disqualification criterion from guia_icp_qualificacao.md as being about 'negociação sem espaço de complementaridade identificado', when in fact that concept belongs to playbook_vendas.md as a blocking criterion for passing to AE. The actual disqualification criterion in guia_icp_qualificacao.md refers to 'negociação conduzida por outro representante comercial da mesma conta', which the output conflates with the unrelated complementarity concept from a different source document."
+      },
+      "answer_relevancy": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because the output contains no irrelevant statements, with every part of the response directly addressing the input's request about T-INFRA leads with the 'ja temos parceiro' objection and how to overcome it. Great job staying fully on topic!"
+      },
+      "correcao": {
+        "score": 0.7,
+        "ok": true,
+        "motivo": "A Resposta Real acerta o numero essencial (8 leads) e a recomendacao-chave (nao disputar o parceiro, direcionar para camada complementar como governanca, custo de nuvem e picos de demanda), alinhando-se bem ao conteudo essencial da Resposta Esperada. Porem, falha em listar os IDs especificos dos leads (58, 87, 134, 142, 151, 152, 181, 197), que sao elementos numericos explicitos na Resposta Esperada e estao ausentes na Resposta Real. Os detalhes extras (fontes, criterios de desqualificacao) nao prejudicam, pois sao corretos e nao contraditorios, mas a omissao dos IDs e uma lacuna relevante de dados numericos."
+      }
+    },
+    "aprovado": true
+  },
+  {
+    "id": "D06",
+    "categoria": "dificil",
+    "conjunto": "principal",
+    "pergunta": "Um contato de 55 anos, aposentado, saldo 3000 euros, contatado por celular em outubro, com 2 contatos anteriores (ultimo ha 90 dias), campanha anterior de sucesso e primeira abordagem desta campanha: ele converte? Como devo abordar?",
+    "rota_esperada": "composta",
+    "rota_obtida": "composta",
+    "rota_ok": true,
+    "ferramentas_esperadas": [
+      "prever_conversao",
+      "buscar_documentos"
+    ],
+    "ferramentas_usadas": [
+      "prever_conversao",
+      "buscar_documentos",
+      "buscar_documentos",
+      "buscar_documentos",
+      "buscar_documentos"
+    ],
+    "ferramentas_ok": true,
+    "segundos": 47.8,
+    "resposta": "Aqui está a recomendação consolidada:\n\n**1) O que os dados mostram**\n- Probabilidade de conversão estimada: **64,9%**, classificada como \"priorizar\", com **confiança moderada** (o modelo usou idade, ocupação, saldo, canal, mês, nº de contatos nesta campanha, dias desde o último contato e resultado da campanha anterior; faltam estado civil, escolaridade e dados de financiamento, por isso a confiança não é alta).\n- Pontos que pesam a favor: resultado **positivo na campanha anterior** (poutcome=success) e o último contato foi há 90 dias — dentro de uma janela ainda \"morna\", não fria.\n- É o **primeiro toque desta campanha**, ou seja, não há histórico de objeção ou recusa nela ainda.\n- O score está bem acima do limiar de decisão (0,1646), reforçando que é um lead a priorizar na fila de contato.\n\n**2) Recomendação prática**\n- Tratar como lead de **alta prioridade** para primeiro contato ativo (ligação), aproveitando o fato de já ter havido conversão em campanha anterior como gancho de relacionamento (\"da última vez funcionou para você, hoje trago uma continuidade/evolução disso\").\n- Como é o primeiro toque desta campanha, **não force contorno de objeção** — ainda não há objeção registrada. Use a abertura para validar interesse e coletar os dados que faltam (estado civil, se tem financiamento imobiliário ou empréstimo pessoal), pois isso aumenta a precisão da qualificação e do score em contatos futuros.\n- Importante: o playbook de cadência e trilhas (T-INFRA, T-GESTAO, T-DADOS, T-EXEC, T-FIN, T-PROD) é estruturado por **cargo em contexto B2B**, e o perfil descrito (pessoa física aposentada) não se enquadra em nenhuma dessas trilhas. Por isso, **não há uma cadência ou tom de abordagem específico nos documentos para este perfil** — a priorização deve se basear apenas no score e nos critérios de qualificação disponíveis, sem aplicar scripts de trilha B2B.\n- Se, durante a ligação, o lead confirmar interesse e dor concreta, o passo seguinte é avançar no funil (Novo → Qualificando) e, se atingir os critérios de passagem (ex.: `icp_fit_score` ≥ 4 e dor confirmada), encaminhar ao Account Executive. Qualquer validação técnica de oferta deve ser feita pelo especialista responsável.\n\n**3) Fontes consultadas**\n- Playbook de Vendas — seção \"1. Visão Geral do Processo\" e \"4. Estrutura de Cadência por Trilha\" (confirma que cadência é organizada por trilha de cargo, não aplicável aqui).\n- Playbook de Vendas — seção \"6. Critérios de Passagem para Account Executive (AE)\".\n- Guia de ICP e Qualificação — seção \"4. Mapeamento de Trilha por Cargo (ICP Segmentado)\" (confirma ausência de trilha correspondente ao perfil).\n- Análise de propensão fornecida (modelo proxy baseado na base UCI Bank Marketing), usada apenas como apoio à priorização, não como decisão final.",
+    "metricas": {
+      "faithfulness": {
+        "score": 1.0,
+        "ok": true,
+        "motivo": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, meaning every claim made is fully supported by the provided information."
+      },
+      "answer_relevancy": {
+        "score": 0.8918918918918919,
+        "ok": true,
+        "motivo": "The score is 0.89 because the output addresses the input's core request with relevant conversion analysis and approach suggestions, but includes four source/metadata citations that do not directly contribute to answering the question about conversion likelihood and approach strategy."
+      },
+      "correcao": {
+        "score": 0.9,
+        "ok": true,
+        "motivo": "A resposta real contém os números essenciais corretos: 64,9% de probabilidade (consistente com 'cerca de 65%') e threshold de 0,1646 (equivalente a 16,5%), ambos alinhados à resposta esperada. Também menciona explicitamente que é um modelo proxy (baseado na base UCI Bank Marketing) e que o perfil aposentado não se enquadra nas trilhas B2B do ICP corporativo, cobrindo a ressalva central da resposta esperada. A abordagem é fundamentada em playbook, critérios de qualificação e guia de ICP, como esperado. Não há números incorretos ou contraditórios; os detalhes extras (fontes consultadas, recomendações práticas) não contradizem a resposta esperada e agregam contexto sem penalização."
+      }
+    },
+    "aprovado": true
+  }
+]

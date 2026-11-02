@@ -8,7 +8,12 @@ PASTA = Path(__file__).parent / "resultados"
 
 
 def carregar(tag):
-    return json.loads((PASTA / f"{tag}.json").read_text(encoding="utf-8"))
+    """Aceita varias execucoes juntas: 'depois+depois2' (a ultima vence em caso de id repetido)."""
+    por_id = {}
+    for parte in tag.split("+"):
+        for d in json.loads((PASTA / f"{parte}.json").read_text(encoding="utf-8")):
+            por_id[d["id"]] = d
+    return list(por_id.values())
 
 
 def media(xs):
