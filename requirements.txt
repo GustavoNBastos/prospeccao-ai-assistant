@@ -12,3 +12,4 @@ joblib
 ucimlrepo
 crewai
 langfuse
+deepeval

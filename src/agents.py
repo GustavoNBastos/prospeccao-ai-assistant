@@ -42,6 +42,8 @@ REGRAS = (
     "ao especialista. O funil NAO tem o status Em negociacao: quando o usuario usar esse "
     "termo, mostre os status existentes mais proximos e declare qual criterio usou. "
     "Ao citar um registro, use somente o que as colunas realmente dizem. "
+    "Seja conciso: responda so o que foi perguntado, sem rankings ou analises extras. "
+    "Para contagens use SQL (COUNT, GROUP BY) e nunca conte linhas a mao. "
     "Responda sempre em portugues, de forma direta."
 )
 
@@ -91,7 +93,7 @@ def _llm() -> LLM:
     return LLM(
         model=MODEL,
         api_key=os.environ.get("ANTHROPIC_API_KEY"),
-        max_tokens=1500,
+        max_tokens=4000,
     )
 
 

@@ -32,7 +32,12 @@ Se a pergunta pede um numero/previsao E tambem "como abordar", "como responder",
 SIMPLES = precisa de um unico tipo de insumo, ou de nenhum: so dados, so previsao de ML,
 so conteudo dos documentos, recusa de pedido sensivel, saudacao ou assunto fora de escopo.
 
+Atencao: perguntas sobre COMO responder uma objecao, como funciona um processo, quais os
+criterios de ICP ou qualificacao, ou o que diz um documento sao SIMPLES, mesmo que mencionem
+"lead", a menos que peçam tambem um numero, uma lista de leads ou uma previsao de conversao.
+
 Exemplos:
+"O que respondo quando o lead diz que o orcamento esta comprometido?" -> SIMPLES
 "Quantos leads existem por trilha?" -> SIMPLES
 "Qual a chance de conversao de um contato de 40 anos, gerente?" -> SIMPLES
 "Como funciona a alocacao de especialista sem abrir headcount?" -> SIMPLES
