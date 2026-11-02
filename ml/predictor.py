@@ -7,8 +7,13 @@ com os leads B2B da Semantix. Essa limitação é informada em todo resultado.
 """
 from pathlib import Path
 
+import warnings
+
 import joblib
 import pandas as pd
+
+# FLAML/scikit-learn emitem este aviso a cada chamada de predição em threads (inofensivo)
+warnings.filterwarnings("ignore", message=".*sklearn.utils.parallel.delayed.*")
 
 MODELO_PATH = Path(__file__).resolve().parent.parent / "models" / "lead_scoring.joblib"
 

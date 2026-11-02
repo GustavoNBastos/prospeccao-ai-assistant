@@ -89,6 +89,16 @@ RESUMOS_POR_RESULTADO = {
 }
 
 
+# Resumo coerente com a objecao registrada (evita 'Ja temos parceiro' com resumo de outra objecao)
+RESUMO_POR_OBJECAO = {
+    "Ja temos parceiro": "Disse que ja tem um parceiro atendendo esse escopo",
+    "Orcamento comprometido": "Informou que o orcamento do ano ja esta comprometido",
+    "Nao sou eu quem decide": "Disse que a decisao nao e dele, indicou outro contato",
+    "Nao e prioridade este ano": "Respondeu que nao e prioridade neste momento",
+    "Manda material por email": "Pediu para so enviar material por email, sem call",
+}
+
+
 def escolher_trilha() -> str:
     trilhas = list(TRILHAS.keys())
     pesos = [TRILHAS[t]["peso"] for t in trilhas]
@@ -172,6 +182,8 @@ def gerar_interacoes(leads: list[dict]) -> list[dict]:
             )[0]
             objecao = random.choice(OBJECOES) if resultado == "Objecao" else ""
             resumo = random.choice(RESUMOS_POR_RESULTADO[resultado])
+            if resultado == "Objecao":
+                resumo = RESUMO_POR_OBJECAO[objecao]
 
             interacoes.append(
                 {

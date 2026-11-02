@@ -10,3 +10,4 @@ flaml[automl]
 scikit-learn
 joblib
 ucimlrepo
+crewai

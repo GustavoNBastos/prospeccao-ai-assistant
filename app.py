@@ -1,8 +1,9 @@
 """
 Aplicacao principal Streamlit.
 
-Interface de chat com streaming, integrando DuckDB (dados estruturados)
-e ChromaDB (RAG) via LLM (Anthropic Claude com tool use).
+Interface de chat com streaming, integrando DuckDB (dados estruturados),
+ChromaDB (RAG) e modelo de ML via LLM (Anthropic Claude com tool use).
+Perguntas compostas sao roteadas para os agentes CrewAI (Analista + Estrategista).
 """
 
 import os
@@ -14,7 +15,9 @@ import streamlit as st
 # usam imports diretos entre si, sem prefixo de pacote)
 sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
 
+from agents import executar_crew  # noqa: E402
 from llm import responder_stream  # noqa: E402
+from router import classificar  # noqa: E402
 
 st.set_page_config(
     page_title="Assistente de Prospecção B2B",
@@ -35,7 +38,11 @@ with st.sidebar:
         "- Quais leads estão com status 'Reunião Agendada'?\n"
         "- Como funciona a alocação de especialista sem abrir headcount?\n"
         "- Como devo responder se o lead disser que já tem um parceiro atendendo?\n"
-        "- Quais leads da trilha T-EXEC tiveram objeção nas últimas interações?"
+        "- Quais leads da trilha T-EXEC tiveram objeção nas últimas interações?\n"
+        "- Qual a chance de conversão de um contato de 55 anos, aposentado, saldo 3000, "
+        "com campanha anterior de sucesso?\n"
+        "- Quantos leads T-INFRA estão em negociação e como contornar a objeção "
+        "'já temos um parceiro'? (usa os dois agentes)"
     )
     st.divider()
     if st.button("🗑️ Limpar conversa"):
@@ -54,6 +61,8 @@ if "mensagens_api" not in st.session_state:
 for mensagem in st.session_state.mensagens_display:
     with st.chat_message(mensagem["role"]):
         st.markdown(mensagem["texto"])
+        if mensagem.get("origem") == "agentes":
+            st.caption("🤖 Resposta dos agentes: Analista de Leads + Estrategista Comercial")
 
 pergunta = st.chat_input("Pergunte sobre leads, cadências, objeções...")
 
@@ -64,11 +73,23 @@ if pergunta:
 
     st.session_state.mensagens_api.append({"role": "user", "content": pergunta})
 
+    origem = "chat"
     with st.chat_message("assistant"):
         try:
-            resposta_completa = st.write_stream(
-                responder_stream(st.session_state.mensagens_api)
-            )
+            rota = classificar(pergunta)
+            if rota == "composta":
+                origem = "agentes"
+                with st.spinner("Analista de Leads e Estrategista Comercial trabalhando..."):
+                    resposta_completa = executar_crew(pergunta)
+                st.markdown(resposta_completa)
+                st.caption("🤖 Resposta dos agentes: Analista de Leads + Estrategista Comercial")
+                st.session_state.mensagens_api.append(
+                    {"role": "assistant", "content": resposta_completa}
+                )
+            else:
+                resposta_completa = st.write_stream(
+                    responder_stream(st.session_state.mensagens_api)
+                )
         except Exception as erro:
             resposta_completa = (
                 "Desculpe, ocorreu um erro ao gerar a resposta. "
@@ -77,5 +98,5 @@ if pergunta:
             st.error(resposta_completa)
 
     st.session_state.mensagens_display.append(
-        {"role": "assistant", "texto": resposta_completa}
+        {"role": "assistant", "texto": resposta_completa, "origem": origem}
     )
